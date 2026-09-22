@@ -1,0 +1,1302 @@
+[
+  {
+    "file": "public/agero/01a81b8398991ec9.png",
+    "bytes": 14063,
+    "format": "heif",
+    "width": 512,
+    "height": 384,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/04cfb4dae693fb44.svg",
+    "bytes": 5558,
+    "format": "svg",
+    "width": 1814,
+    "height": 1402,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/0b272735aa20eaab.svg",
+    "bytes": 290,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/0ff1c1adead21608.svg",
+    "bytes": 243,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/12c30fe253b82877.svg",
+    "bytes": 3308,
+    "format": "svg",
+    "width": 167,
+    "height": 32,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/14486f6be866bb8f.svg",
+    "bytes": 1044,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/185757a0c5a0587e.svg",
+    "bytes": 289,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/18609652482112b9.svg",
+    "bytes": 215,
+    "format": "svg",
+    "width": 40,
+    "height": 40,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/19ab69d46b122362.svg",
+    "bytes": 678,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/1a7a78710ea492f5.svg",
+    "bytes": 1790,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/1bffd5bd880c5b80.svg",
+    "bytes": 700,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/1dfa7390c3cca9b3.png",
+    "bytes": 62045,
+    "format": "heif",
+    "width": 512,
+    "height": 512,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/2072b8d8ba2717ff.png",
+    "bytes": 14541,
+    "format": "heif",
+    "width": 512,
+    "height": 512,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/239c6c182d096ebe.svg",
+    "bytes": 2058,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/26fd559bacef16ff.svg",
+    "bytes": 718,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/27b007d073a4d197.svg",
+    "bytes": 243,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/2a69dca66b9caa6b.png",
+    "bytes": 6923,
+    "format": "heif",
+    "width": 1024,
+    "height": 565,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/2a9d38dce1d6d210.png",
+    "bytes": 6934,
+    "format": "heif",
+    "width": 1024,
+    "height": 565,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/2ef263ccd217fcea.svg",
+    "bytes": 446,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/324eaea16aa60b37.svg",
+    "bytes": 243,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/353266575034029c.png",
+    "bytes": 21721,
+    "format": "heif",
+    "width": 1024,
+    "height": 633,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/39a059066bb1a949.svg",
+    "bytes": 246,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/3b8e627a3840bc97.png",
+    "bytes": 321,
+    "format": "png",
+    "width": 19,
+    "height": 18,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/3c3b110b1d7f7b98.png",
+    "bytes": 105814,
+    "format": "heif",
+    "width": 2048,
+    "height": 1142,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/407833a20ac85afd.svg",
+    "bytes": 1324,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/40a4aaa12cf4dcf4.svg",
+    "bytes": 278,
+    "format": "svg",
+    "width": 20,
+    "height": 20,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/42cef2393ba359db.png",
+    "bytes": 53563,
+    "format": "heif",
+    "width": 2048,
+    "height": 1053,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/45902b01302eb64b.png",
+    "bytes": 90563,
+    "format": "heif",
+    "width": 819,
+    "height": 1024,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/49e4903a9a91a270.png",
+    "bytes": 16139,
+    "format": "heif",
+    "width": 2048,
+    "height": 500,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/4d4a4286841e4261.svg",
+    "bytes": 290,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/4f056765ea3b7c81.svg",
+    "bytes": 214,
+    "format": "svg",
+    "width": 40,
+    "height": 40,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/5524841ee22de2ea.png",
+    "bytes": 1431602,
+    "format": "heif",
+    "width": 2048,
+    "height": 1142,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/5568798f81de86a6.png",
+    "bytes": 177410,
+    "format": "heif",
+    "width": 2048,
+    "height": 1142,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/59a3e14ce2c8270a.svg",
+    "bytes": 245,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/5a3134c09776a5d9.svg",
+    "bytes": 2594,
+    "format": "svg",
+    "width": 58,
+    "height": 32,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/5cbaf883073eacca.svg",
+    "bytes": 76
+  },
+  {
+    "file": "public/agero/5cd1f85a44b8de66.svg",
+    "bytes": 1085,
+    "format": "svg",
+    "width": 127,
+    "height": 32,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/61be9330163a0922.svg",
+    "bytes": 155,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/646094ac8f1700dd.svg",
+    "bytes": 76
+  },
+  {
+    "file": "public/agero/66a1a0ee6de95a4d.svg",
+    "bytes": 246,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/6be63efea63d54fa.png",
+    "bytes": 12812,
+    "format": "heif",
+    "width": 512,
+    "height": 384,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/76c9aa095862b3ab.svg",
+    "bytes": 4032,
+    "format": "svg",
+    "width": 131,
+    "height": 32,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/7d128c1f88a3eadc.svg",
+    "bytes": 76
+  },
+  {
+    "file": "public/agero/803ebd64ae2e8aea.svg",
+    "bytes": 155,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/82d90730baf1ebd2.png",
+    "bytes": 117847,
+    "format": "heif",
+    "width": 1024,
+    "height": 633,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/8667090eab06a040.svg",
+    "bytes": 1803,
+    "format": "svg",
+    "width": 117,
+    "height": 37,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/8c83869fdeac9838.svg",
+    "bytes": 246,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/8de7a55c2f88dfe4.svg",
+    "bytes": 76
+  },
+  {
+    "file": "public/agero/9069a7790cde9d3c.svg",
+    "bytes": 246,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/90df5c078730ca3d.png",
+    "bytes": 16664,
+    "format": "heif",
+    "width": 819,
+    "height": 1024,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/92c22d0cdba7c5a6.png",
+    "bytes": 32577,
+    "format": "heif",
+    "width": 2048,
+    "height": 1151,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/9a8a02027627b7fb.png",
+    "bytes": 15150,
+    "format": "heif",
+    "width": 512,
+    "height": 384,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/9bf432235626e417.svg",
+    "bytes": 246,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/9cfea6b4c24a104f.svg",
+    "bytes": 158,
+    "format": "svg",
+    "width": 1814,
+    "height": 1402,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/a4392ceefb79924e.png",
+    "bytes": 78189,
+    "format": "heif",
+    "width": 2048,
+    "height": 1142,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/a4ce2882310fb6ea.png",
+    "bytes": 43670,
+    "format": "heif",
+    "width": 1024,
+    "height": 633,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/a7a049bc4eb76d34.svg",
+    "bytes": 155,
+    "format": "svg",
+    "width": 77,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/a90ff1fb495ef6cd.svg",
+    "bytes": 245,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/a937ad4597533680.svg",
+    "bytes": 155,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/ad29d93a2ff9055c.svg",
+    "bytes": 1029,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/ad56a1a706237a7a.svg",
+    "bytes": 1113,
+    "format": "svg",
+    "width": 83,
+    "height": 32,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/arrow.svg",
+    "bytes": 313,
+    "format": "svg",
+    "width": 20,
+    "height": 20,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/b0c79966ac6935d2.svg",
+    "bytes": 815,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/b2dd40059efcb4b6.svg",
+    "bytes": 912,
+    "format": "svg",
+    "width": 20,
+    "height": 20,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/b562e2a6cf46c504.png",
+    "bytes": 7965,
+    "format": "heif",
+    "width": 325,
+    "height": 256,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/b638bb181a6f2d1f.png",
+    "bytes": 532779,
+    "format": "heif",
+    "width": 801,
+    "height": 1024,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/banner.avif",
+    "bytes": 88875,
+    "format": "heif",
+    "width": 2048,
+    "height": 1153,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/bbacde09244d29f1.svg",
+    "bytes": 155,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/c105deaf82910b31.png",
+    "bytes": 14388,
+    "format": "heif",
+    "width": 512,
+    "height": 512,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/c170c2e1dc633fec.svg",
+    "bytes": 1620,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/c626b81b741fe9a9.svg",
+    "bytes": 1207,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/c7f33bacf417bed6.svg",
+    "bytes": 155,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/ca8715581a26b2cb.png",
+    "bytes": 88875,
+    "format": "heif",
+    "width": 2048,
+    "height": 1153,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/cal-sans.woff2",
+    "bytes": 36844
+  },
+  {
+    "file": "public/agero/check.svg",
+    "bytes": 718,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/compass.svg",
+    "bytes": 1044,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/contact.avif",
+    "bytes": 53563,
+    "format": "heif",
+    "width": 2048,
+    "height": 1053,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/d0113dadf5bce41d.png",
+    "bytes": 14972,
+    "format": "heif",
+    "width": 512,
+    "height": 384,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/d1fcea9a501f75a0.svg",
+    "bytes": 4633,
+    "format": "svg",
+    "width": 162,
+    "height": 32,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/d8bd26baec8652d6.svg",
+    "bytes": 324,
+    "format": "svg",
+    "width": 342,
+    "height": 36,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/dca4bb05f0a26b51.png",
+    "bytes": 15585,
+    "format": "heif",
+    "width": 336,
+    "height": 348,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/df1d6096f2566e49.png",
+    "bytes": 42199,
+    "format": "heif",
+    "width": 819,
+    "height": 1024,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/e2cf250839b203af.png",
+    "bytes": 92481,
+    "format": "heif",
+    "width": 1024,
+    "height": 683,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/e71f2e8fc86e1a81.svg",
+    "bytes": 289,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/e8e6d8fce300806f.svg",
+    "bytes": 5571887,
+    "format": "svg",
+    "width": 82,
+    "height": 64,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/e98350cf434b9c57.svg",
+    "bytes": 289,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/e99ff098e8998706.svg",
+    "bytes": 788,
+    "format": "svg",
+    "width": 19,
+    "height": 19,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/ec04466d4c7605a9.svg",
+    "bytes": 290,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/ecb54d45ef01e4ae.svg",
+    "bytes": 1895,
+    "format": "svg",
+    "width": 77,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/f30e3578b18480d5.png",
+    "bytes": 49701,
+    "format": "heif",
+    "width": 819,
+    "height": 1024,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/f3fc69a94eacb6b5.svg",
+    "bytes": 155,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/fe3ae443ae86a480.png",
+    "bytes": 24272,
+    "format": "heif",
+    "width": 324,
+    "height": 256,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/ff9ef97b838e2981.svg",
+    "bytes": 243,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/flower-orange.svg",
+    "bytes": 700,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/flower.svg",
+    "bytes": 788,
+    "format": "svg",
+    "width": 19,
+    "height": 19,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/footer.avif",
+    "bytes": 32577,
+    "format": "heif",
+    "width": 2048,
+    "height": 1151,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/globe.svg",
+    "bytes": 1324,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/hello.svg",
+    "bytes": 1930,
+    "format": "svg",
+    "width": 77,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/hero-design-original.png",
+    "bytes": 4178566,
+    "format": "png",
+    "width": 1994,
+    "height": 1400,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/hero-design-thumb.avif",
+    "bytes": 7965,
+    "format": "heif",
+    "width": 325,
+    "height": 256,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/hero-design.svg",
+    "bytes": 5571887,
+    "format": "svg",
+    "width": 82,
+    "height": 64,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/hero-work.avif",
+    "bytes": 7965,
+    "format": "heif",
+    "width": 325,
+    "height": 256,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/hero-world.avif",
+    "bytes": 24272,
+    "format": "heif",
+    "width": 324,
+    "height": 256,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/inter-medium.woff2",
+    "bytes": 28032
+  },
+  {
+    "file": "public/agero/inter-regular.woff2",
+    "bytes": 27404
+  },
+  {
+    "file": "public/agero/layout.svg",
+    "bytes": 1029,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/next.svg",
+    "bytes": 215,
+    "format": "svg",
+    "width": 40,
+    "height": 40,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/notch.svg",
+    "bytes": 359,
+    "format": "svg",
+    "width": 342,
+    "height": 36,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/orange-glow.avif",
+    "bytes": 6934,
+    "format": "heif",
+    "width": 1024,
+    "height": 565,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/pen.svg",
+    "bytes": 2058,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/planet.svg",
+    "bytes": 912,
+    "format": "svg",
+    "width": 20,
+    "height": 20,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/plus.svg",
+    "bytes": 481,
+    "format": "svg",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/previous.svg",
+    "bytes": 214,
+    "format": "svg",
+    "width": 40,
+    "height": 40,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/proof-1.avif",
+    "bytes": 117847,
+    "format": "heif",
+    "width": 1024,
+    "height": 633,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/proof-2.avif",
+    "bytes": 43670,
+    "format": "heif",
+    "width": 1024,
+    "height": 633,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/proof-3.avif",
+    "bytes": 21721,
+    "format": "heif",
+    "width": 1024,
+    "height": 633,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/service-brand.png",
+    "bytes": 231013,
+    "format": "png",
+    "width": 1024,
+    "height": 683,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/service-logo.avif",
+    "bytes": 6923,
+    "format": "heif",
+    "width": 1024,
+    "height": 565,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/service-web.avif",
+    "bytes": 92481,
+    "format": "heif",
+    "width": 1024,
+    "height": 683,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/sparkle.png",
+    "bytes": 321,
+    "format": "png",
+    "width": 19,
+    "height": 18,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/stackray-desktop.png",
+    "bytes": 67403,
+    "format": "jpeg",
+    "width": 1280,
+    "height": 720,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/star.svg",
+    "bytes": 815,
+    "format": "svg",
+    "width": 24,
+    "height": 24,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/texture.avif",
+    "bytes": 532779,
+    "format": "heif",
+    "width": 801,
+    "height": 1024,
+    "alpha": true
+  },
+  {
+    "file": "public/agero/work-1.avif",
+    "bytes": 49701,
+    "format": "heif",
+    "width": 819,
+    "height": 1024,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/work-2.avif",
+    "bytes": 90563,
+    "format": "heif",
+    "width": 819,
+    "height": 1024,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/work-3.avif",
+    "bytes": 42199,
+    "format": "heif",
+    "width": 819,
+    "height": 1024,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/work-bg-1.avif",
+    "bytes": 78189,
+    "format": "heif",
+    "width": 2048,
+    "height": 1142,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/work-bg-2.avif",
+    "bytes": 177410,
+    "format": "heif",
+    "width": 2048,
+    "height": 1142,
+    "alpha": false
+  },
+  {
+    "file": "public/agero/work-bg-3.avif",
+    "bytes": 105814,
+    "format": "heif",
+    "width": 2048,
+    "height": 1142,
+    "alpha": false
+  },
+  {
+    "file": "public/favicon-16x16.png",
+    "bytes": 464,
+    "format": "png",
+    "width": 16,
+    "height": 16,
+    "alpha": true
+  },
+  {
+    "file": "public/favicon-32x32.png",
+    "bytes": 894,
+    "format": "png",
+    "width": 32,
+    "height": 32,
+    "alpha": true
+  },
+  {
+    "file": "public/favicon-48x48.png",
+    "bytes": 1351,
+    "format": "png",
+    "width": 48,
+    "height": 48,
+    "alpha": true
+  },
+  {
+    "file": "public/favicon.svg",
+    "bytes": 242,
+    "format": "svg",
+    "width": 64,
+    "height": 64,
+    "alpha": true
+  },
+  {
+    "file": "public/helpmegrow/analytics.jpg",
+    "bytes": 19698,
+    "format": "jpeg",
+    "width": 405,
+    "height": 220,
+    "alpha": false
+  },
+  {
+    "file": "public/helpmegrow/audience-conversations.png",
+    "bytes": 4035241,
+    "format": "png",
+    "width": 2664,
+    "height": 2042,
+    "alpha": true
+  },
+  {
+    "file": "public/helpmegrow/audience-performance.jpg",
+    "bytes": 199175,
+    "format": "jpeg",
+    "width": 1396,
+    "height": 1190,
+    "alpha": false
+  },
+  {
+    "file": "public/helpmegrow/audience-planning.png",
+    "bytes": 524942,
+    "format": "png",
+    "width": 1223,
+    "height": 781,
+    "alpha": true
+  },
+  {
+    "file": "public/helpmegrow/benefits.jpg",
+    "bytes": 27358,
+    "format": "jpeg",
+    "width": 435,
+    "height": 295,
+    "alpha": false
+  },
+  {
+    "file": "public/helpmegrow/comments.jpg",
+    "bytes": 19753,
+    "format": "jpeg",
+    "width": 405,
+    "height": 205,
+    "alpha": false
+  },
+  {
+    "file": "public/helpmegrow/conversion-early-access.png",
+    "bytes": 1459154,
+    "format": "png",
+    "width": 2052,
+    "height": 900,
+    "alpha": true
+  },
+  {
+    "file": "public/helpmegrow/early-access.jpg",
+    "bytes": 8964,
+    "format": "jpeg",
+    "width": 345,
+    "height": 155,
+    "alpha": false
+  },
+  {
+    "file": "public/helpmegrow/hero.jpg",
+    "bytes": 579748,
+    "format": "jpeg",
+    "width": 2880,
+    "height": 2164,
+    "alpha": false
+  },
+  {
+    "file": "public/helpmegrow/inbox.jpg",
+    "bytes": 13564,
+    "format": "jpeg",
+    "width": 265,
+    "height": 220,
+    "alpha": false
+  },
+  {
+    "file": "public/helpmegrow/product-answer.png",
+    "bytes": 2956225,
+    "format": "png",
+    "width": 1625,
+    "height": 2042,
+    "alpha": true
+  },
+  {
+    "file": "public/helpmegrow/product-engage.png",
+    "bytes": 2241836,
+    "format": "png",
+    "width": 2448,
+    "height": 1026,
+    "alpha": true
+  },
+  {
+    "file": "public/helpmegrow/product-plan.png",
+    "bytes": 75115,
+    "format": "png",
+    "width": 710,
+    "height": 561,
+    "alpha": true
+  },
+  {
+    "file": "public/helpmegrow/product-understand.png",
+    "bytes": 1248685,
+    "format": "png",
+    "width": 1396,
+    "height": 1190,
+    "alpha": true
+  },
+  {
+    "file": "public/helpmegrow/scheduler.jpg",
+    "bytes": 15434,
+    "format": "jpeg",
+    "width": 405,
+    "height": 260,
+    "alpha": false
+  },
+  {
+    "file": "public/hippo-logo.png",
+    "bytes": 27374,
+    "format": "png",
+    "width": 512,
+    "height": 412,
+    "alpha": true
+  },
+  {
+    "file": "public/og.png",
+    "bytes": 1276297,
+    "format": "png",
+    "width": 2400,
+    "height": 1260,
+    "alpha": true
+  },
+  {
+    "file": "public/og.svg",
+    "bytes": 1706,
+    "format": "svg",
+    "width": 1200,
+    "height": 630,
+    "alpha": true
+  },
+  {
+    "file": "public/quillo/explainer-poster.webp",
+    "bytes": 12762,
+    "format": "webp",
+    "width": 1440,
+    "height": 810,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-conversion.webp",
+    "bytes": 26474,
+    "format": "webp",
+    "width": 1980,
+    "height": 1033,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-differentiation.webp",
+    "bytes": 76690,
+    "format": "webp",
+    "width": 1980,
+    "height": 1796,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-faq.webp",
+    "bytes": 97354,
+    "format": "webp",
+    "width": 1980,
+    "height": 2027,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-hero.webp",
+    "bytes": 153754,
+    "format": "webp",
+    "width": 1980,
+    "height": 3024,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-how-it-works.webp",
+    "bytes": 253994,
+    "format": "webp",
+    "width": 1980,
+    "height": 3636,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-preview.webp",
+    "bytes": 87440,
+    "format": "webp",
+    "width": 1980,
+    "height": 1404,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-problem.webp",
+    "bytes": 115960,
+    "format": "webp",
+    "width": 1980,
+    "height": 1654,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-rigor.webp",
+    "bytes": 175550,
+    "format": "webp",
+    "width": 1980,
+    "height": 2713,
+    "alpha": false
+  },
+  {
+    "file": "public/quillo/landing-why-now.webp",
+    "bytes": 57568,
+    "format": "webp",
+    "width": 1980,
+    "height": 1262,
+    "alpha": false
+  },
+  {
+    "file": "public/stackray/evidence.png",
+    "bytes": 244746,
+    "format": "png",
+    "width": 1440,
+    "height": 575,
+    "alpha": false
+  },
+  {
+    "file": "public/stackray/hero.png",
+    "bytes": 91028,
+    "format": "jpeg",
+    "width": 1440,
+    "height": 1000,
+    "alpha": false
+  },
+  {
+    "file": "public/stackray/receipt.png",
+    "bytes": 51678,
+    "format": "png",
+    "width": 510,
+    "height": 450,
+    "alpha": false
+  },
+  {
+    "file": "public/stackray/security.png",
+    "bytes": 148728,
+    "format": "png",
+    "width": 1440,
+    "height": 653,
+    "alpha": false
+  },
+  {
+    "file": "public/stackray/waitlist.png",
+    "bytes": 160342,
+    "format": "png",
+    "width": 1216,
+    "height": 523,
+    "alpha": false
+  }
+]

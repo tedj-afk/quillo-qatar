@@ -1,0 +1,38 @@
+{
+  "baseline-desktop": {
+    "initialRequests": 44,
+    "initialBytes": 5660915,
+    "requests": 53,
+    "bytes": 6941987,
+    "imageBytes": 6477448,
+    "errors": [],
+    "failed": []
+  },
+  "final-desktop": {
+    "initialRequests": 22,
+    "initialBytes": 380080,
+    "requests": 38,
+    "bytes": 1208574,
+    "imageBytes": 901638,
+    "errors": [],
+    "failed": []
+  },
+  "baseline-mobile": {
+    "initialRequests": 47,
+    "initialBytes": 5844763,
+    "requests": 53,
+    "bytes": 6941987,
+    "imageBytes": 6477448,
+    "errors": [],
+    "failed": []
+  },
+  "final-mobile": {
+    "initialRequests": 19,
+    "initialBytes": 362155,
+    "requests": 35,
+    "bytes": 1659100,
+    "imageBytes": 1352164,
+    "errors": [],
+    "failed": []
+  }
+}

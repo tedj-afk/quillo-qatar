@@ -1,0 +1,268 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "errors": [],
+    "differences": [],
+    "height": [
+      17617,
+      17617
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "errors": [],
+    "differences": [],
+    "height": [
+      16903,
+      16903
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "errors": [],
+    "differences": [],
+    "height": [
+      13933,
+      13933
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "errors": [],
+    "differences": [],
+    "height": [
+      15580,
+      15580
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/",
+    "width": 1920,
+    "errors": [],
+    "differences": [],
+    "height": [
+      16043,
+      16043
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/stackray",
+    "width": 390,
+    "errors": [],
+    "differences": [],
+    "height": [
+      22123,
+      22123
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/stackray",
+    "width": 1440,
+    "errors": [],
+    "differences": [],
+    "height": [
+      19701,
+      19701
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/helpmegrow",
+    "width": 390,
+    "errors": [],
+    "differences": [],
+    "height": [
+      17569,
+      17569
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/helpmegrow",
+    "width": 1440,
+    "errors": [],
+    "differences": [],
+    "height": [
+      14421,
+      14421
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/quillo",
+    "width": 390,
+    "errors": [],
+    "differences": [],
+    "height": [
+      22712,
+      22711
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/quillo",
+    "width": 1440,
+    "errors": [],
+    "differences": [],
+    "height": [
+      22465,
+      22465
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/atlas-mode",
+    "width": 390,
+    "errors": [],
+    "differences": [],
+    "height": [
+      5767,
+      5767
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/atlas-mode",
+    "width": 1440,
+    "errors": [],
+    "differences": [],
+    "height": [
+      6014,
+      6014
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/northstar-sync",
+    "width": 390,
+    "errors": [],
+    "differences": [],
+    "height": [
+      5631,
+      5631
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/northstar-sync",
+    "width": 1440,
+    "errors": [],
+    "differences": [],
+    "height": [
+      6014,
+      6014
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/signal-desk",
+    "width": 390,
+    "errors": [],
+    "differences": [],
+    "height": [
+      5734,
+      5734
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/signal-desk",
+    "width": 1440,
+    "errors": [],
+    "differences": [],
+    "height": [
+      5986,
+      5986
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/kitebase",
+    "width": 390,
+    "errors": [],
+    "differences": [],
+    "height": [
+      5705,
+      5705
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  },
+  {
+    "route": "/case-studies/kitebase",
+    "width": 1440,
+    "errors": [],
+    "differences": [],
+    "height": [
+      5986,
+      5986
+    ],
+    "overflow": false,
+    "broken": [],
+    "sameText": true,
+    "sameLinks": true
+  }
+]

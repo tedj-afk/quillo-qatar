@@ -1,0 +1,7 @@
+import http from 'node:http';
+import {readFile,stat} from 'node:fs/promises';
+import path from 'node:path';
+import {gzipSync} from 'node:zlib';
+const root=process.argv[2],port=Number(process.argv[3]||4173);
+const types={'.html':'text/html','.js':'application/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.avif':'image/avif','.webp':'image/webp','.woff2':'font/woff2','.ico':'image/x-icon','.mp4':'video/mp4','.txt':'text/plain','.xml':'application/xml'};
+http.createServer(async(req,res)=>{let name=decodeURIComponent(new URL(req.url,'http://local').pathname);let file=path.join(root,name);try {if(!path.extname(file) && (await stat(file+'.html')).isFile())file+='.html';}catch{} try {if((await stat(file)).isDirectory())file=path.join(file,'index.html');}catch{}try{let data=await readFile(file);const type=types[path.extname(file)]||'application/octet-stream';res.setHeader('Content-Type',type);res.setHeader('Cache-Control',name.startsWith('/_next/static/')||name.startsWith('/media/')?'public, max-age=31536000, immutable':'public, max-age=0, must-revalidate');if(/text\/|javascript|json|svg|xml/.test(type)&&req.headers['accept-encoding']?.includes('gzip')){data=gzipSync(data);res.setHeader('Content-Encoding','gzip');res.setHeader('Vary','Accept-Encoding');}res.setHeader('Content-Length',data.length);res.end(data);}catch{res.writeHead(404);res.end('Not found');}}).listen(port,'127.0.0.1',()=>console.log(`Serving ${root} on ${port}`));

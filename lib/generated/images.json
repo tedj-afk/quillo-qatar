@@ -1,0 +1,320 @@
+{
+  "/agero/banner.avif": {
+    "width": 2048,
+    "height": 1153,
+    "src": "/media/agero-banner-960.74253de3f8cd.avif",
+    "srcSet": "/media/agero-banner-384.4a18fefed6c9.avif 384w, /media/agero-banner-640.60ec677fe176.avif 640w, /media/agero-banner-960.74253de3f8cd.avif 960w, /media/agero-banner-1280.daacfe88f38f.avif 1280w, /media/agero-banner-1600.df599fcb393c.avif 1600w, /media/agero-banner-2048.aa0bd7caedee.avif 2048w"
+  },
+  "/agero/contact.avif": {
+    "width": 2048,
+    "height": 1053,
+    "src": "/media/agero-contact-960.62c578126a00.avif",
+    "srcSet": "/media/agero-contact-384.45abe62449cb.avif 384w, /media/agero-contact-640.78ce5735bbd5.avif 640w, /media/agero-contact-960.62c578126a00.avif 960w, /media/agero-contact-1280.762d420da31e.avif 1280w, /media/agero-contact-1600.3375c2f51fea.avif 1600w, /media/agero-contact-2048.6fbece02e0b4.avif 2048w"
+  },
+  "/agero/footer.avif": {
+    "width": 2048,
+    "height": 1151,
+    "src": "/media/agero-footer-960.8533d4bb566b.avif",
+    "srcSet": "/media/agero-footer-384.46298621c7a6.avif 384w, /media/agero-footer-640.51ade14af00d.avif 640w, /media/agero-footer-960.8533d4bb566b.avif 960w, /media/agero-footer-1280.b1604d62f9e2.avif 1280w, /media/agero-footer-1600.388c0d1d4c03.avif 1600w, /media/agero-footer-2048.d3376c4ac296.avif 2048w"
+  },
+  "/agero/hero-design-original.png": {
+    "width": 1994,
+    "height": 1400,
+    "src": "/media/agero-hero-design-original-246.38f00ceaddcb.webp",
+    "srcSet": "/media/agero-hero-design-original-82.e16461a491ed.webp 82w, /media/agero-hero-design-original-164.b16feb0606d5.webp 164w, /media/agero-hero-design-original-246.38f00ceaddcb.webp 246w"
+  },
+  "/agero/hero-work.avif": {
+    "width": 325,
+    "height": 256,
+    "src": "/media/agero-hero-work-246.0ec5b1fcaf5c.avif",
+    "srcSet": "/media/agero-hero-work-82.09332fedd4e1.avif 82w, /media/agero-hero-work-164.d88fdc0c7fe2.avif 164w, /media/agero-hero-work-246.0ec5b1fcaf5c.avif 246w"
+  },
+  "/agero/hero-world.avif": {
+    "width": 324,
+    "height": 256,
+    "src": "/media/agero-hero-world-246.2eea4ec65626.avif",
+    "srcSet": "/media/agero-hero-world-82.95f7df26853a.avif 82w, /media/agero-hero-world-164.92cb6e105dad.avif 164w, /media/agero-hero-world-246.2eea4ec65626.avif 246w"
+  },
+  "/agero/orange-glow.avif": {
+    "width": 1024,
+    "height": 565,
+    "src": "/media/agero-orange-glow-960.6e37a5210b4e.avif",
+    "srcSet": "/media/agero-orange-glow-384.cc02605728e6.avif 384w, /media/agero-orange-glow-640.2a56f72f87e4.avif 640w, /media/agero-orange-glow-960.6e37a5210b4e.avif 960w, /media/agero-orange-glow-1024.8c76ee31b0d3.avif 1024w"
+  },
+  "/agero/proof-1.avif": {
+    "width": 1024,
+    "height": 633,
+    "src": "/media/agero-proof-1-960.5bc6274f49ec.avif",
+    "srcSet": "/media/agero-proof-1-384.696c82345f56.avif 384w, /media/agero-proof-1-640.177f2d8b68c3.avif 640w, /media/agero-proof-1-960.5bc6274f49ec.avif 960w, /media/agero-proof-1-1024.96bff9fa58b7.avif 1024w"
+  },
+  "/agero/proof-2.avif": {
+    "width": 1024,
+    "height": 633,
+    "src": "/media/agero-proof-2-960.a9ce549ec8b3.avif",
+    "srcSet": "/media/agero-proof-2-384.2be71f03f359.avif 384w, /media/agero-proof-2-640.1c23d7fc7309.avif 640w, /media/agero-proof-2-960.a9ce549ec8b3.avif 960w, /media/agero-proof-2-1024.4b712d944f9c.avif 1024w"
+  },
+  "/agero/proof-3.avif": {
+    "width": 1024,
+    "height": 633,
+    "src": "/media/agero-proof-3-960.37414ba365dc.avif",
+    "srcSet": "/media/agero-proof-3-384.4abc12231717.avif 384w, /media/agero-proof-3-640.8afb8335d148.avif 640w, /media/agero-proof-3-960.37414ba365dc.avif 960w, /media/agero-proof-3-1024.39780ee89c0a.avif 1024w"
+  },
+  "/agero/service-brand.png": {
+    "width": 1024,
+    "height": 683,
+    "src": "/media/agero-service-brand-960.0b2b8a9edb2f.webp",
+    "srcSet": "/media/agero-service-brand-384.52cfc75d0c95.webp 384w, /media/agero-service-brand-640.910cd4d1f74b.webp 640w, /media/agero-service-brand-960.0b2b8a9edb2f.webp 960w, /media/agero-service-brand-1024.f6258c8cf62a.webp 1024w"
+  },
+  "/agero/service-logo.avif": {
+    "width": 1024,
+    "height": 565,
+    "src": "/media/agero-service-logo-960.9caa60a11fc7.avif",
+    "srcSet": "/media/agero-service-logo-384.39ddfb261540.avif 384w, /media/agero-service-logo-640.e96d30554134.avif 640w, /media/agero-service-logo-960.9caa60a11fc7.avif 960w, /media/agero-service-logo-1024.c1bbcb948f07.avif 1024w"
+  },
+  "/agero/service-web.avif": {
+    "width": 1024,
+    "height": 683,
+    "src": "/media/agero-service-web-960.ded6f7c95a0e.avif",
+    "srcSet": "/media/agero-service-web-384.5ab9ecdcec44.avif 384w, /media/agero-service-web-640.90c9ed350d38.avif 640w, /media/agero-service-web-960.ded6f7c95a0e.avif 960w, /media/agero-service-web-1024.f17910ff6221.avif 1024w"
+  },
+  "/agero/sparkle.png": {
+    "width": 19,
+    "height": 18,
+    "src": "/media/agero-sparkle-19.32a221f4efc8.webp",
+    "srcSet": "/media/agero-sparkle-19.32a221f4efc8.webp 19w"
+  },
+  "/agero/stackray-desktop.png": {
+    "width": 1280,
+    "height": 720,
+    "src": "/media/agero-stackray-desktop-960.cd9ac19537a8.webp",
+    "srcSet": "/media/agero-stackray-desktop-384.4426957c920b.webp 384w, /media/agero-stackray-desktop-640.c32a157282c4.webp 640w, /media/agero-stackray-desktop-960.cd9ac19537a8.webp 960w, /media/agero-stackray-desktop-1280.15c0aedeb6a8.webp 1280w"
+  },
+  "/agero/texture.avif": {
+    "width": 801,
+    "height": 1024,
+    "src": "/media/agero-texture-801.c94d94622967.avif",
+    "srcSet": "/media/agero-texture-384.5423a56a640e.avif 384w, /media/agero-texture-640.8657a5cda406.avif 640w, /media/agero-texture-801.c94d94622967.avif 801w"
+  },
+  "/agero/work-2.avif": {
+    "width": 819,
+    "height": 1024,
+    "src": "/media/agero-work-2-819.065a8a7c926c.avif",
+    "srcSet": "/media/agero-work-2-384.b5af18fba019.avif 384w, /media/agero-work-2-640.8869757a9b16.avif 640w, /media/agero-work-2-819.065a8a7c926c.avif 819w"
+  },
+  "/agero/work-3.avif": {
+    "width": 819,
+    "height": 1024,
+    "src": "/media/agero-work-3-819.7771be96f2c2.avif",
+    "srcSet": "/media/agero-work-3-384.7571a599381c.avif 384w, /media/agero-work-3-640.f32229d19b5a.avif 640w, /media/agero-work-3-819.7771be96f2c2.avif 819w"
+  },
+  "/agero/work-bg-1.avif": {
+    "width": 2048,
+    "height": 1142,
+    "src": "/media/agero-work-bg-1-960.a60dca343cfc.avif",
+    "srcSet": "/media/agero-work-bg-1-384.3f33213c4e92.avif 384w, /media/agero-work-bg-1-640.97b926b408fb.avif 640w, /media/agero-work-bg-1-960.a60dca343cfc.avif 960w, /media/agero-work-bg-1-1280.cb929fb02ab8.avif 1280w, /media/agero-work-bg-1-1600.bfdea79a0dbd.avif 1600w, /media/agero-work-bg-1-2048.fd69188cbaef.avif 2048w"
+  },
+  "/agero/work-bg-2.avif": {
+    "width": 2048,
+    "height": 1142,
+    "src": "/media/agero-work-bg-2-960.9336df24f95f.avif",
+    "srcSet": "/media/agero-work-bg-2-384.5b593dffcb4f.avif 384w, /media/agero-work-bg-2-640.592b45f64dfb.avif 640w, /media/agero-work-bg-2-960.9336df24f95f.avif 960w, /media/agero-work-bg-2-1280.340e5fd7bcae.avif 1280w, /media/agero-work-bg-2-1600.9778cbe63a91.avif 1600w, /media/agero-work-bg-2-2048.5fedc444be89.avif 2048w"
+  },
+  "/agero/work-bg-3.avif": {
+    "width": 2048,
+    "height": 1142,
+    "src": "/media/agero-work-bg-3-960.5705d5287252.avif",
+    "srcSet": "/media/agero-work-bg-3-384.b9d65c37bfbd.avif 384w, /media/agero-work-bg-3-640.784fa29c1c5f.avif 640w, /media/agero-work-bg-3-960.5705d5287252.avif 960w, /media/agero-work-bg-3-1280.e95fbf129955.avif 1280w, /media/agero-work-bg-3-1600.c8727cfe2f7c.avif 1600w, /media/agero-work-bg-3-2048.f99c64b2739f.avif 2048w"
+  },
+  "/hippo-logo.png": {
+    "width": 512,
+    "height": 412,
+    "src": "/media/hippo-logo-512.dd0549f2c98a.webp",
+    "srcSet": "/media/hippo-logo-48.ccb0b75537ce.webp 48w, /media/hippo-logo-96.63b002efe251.webp 96w, /media/hippo-logo-144.9538a5b54663.webp 144w, /media/hippo-logo-400.ea45a122be63.webp 400w, /media/hippo-logo-512.dd0549f2c98a.webp 512w"
+  },
+  "/helpmegrow/audience-conversations.png": {
+    "width": 2664,
+    "height": 2042,
+    "src": "/media/helpmegrow-audience-conversations-960.0d98beda341c.webp",
+    "srcSet": "/media/helpmegrow-audience-conversations-384.b319148898bf.webp 384w, /media/helpmegrow-audience-conversations-640.7f944c1bb8ea.webp 640w, /media/helpmegrow-audience-conversations-960.0d98beda341c.webp 960w, /media/helpmegrow-audience-conversations-1280.55bac29004e8.webp 1280w, /media/helpmegrow-audience-conversations-1600.ab8798d39a80.webp 1600w, /media/helpmegrow-audience-conversations-2048.a0f3ddb659dc.webp 2048w, /media/helpmegrow-audience-conversations-2560.9b7bb592bfe1.webp 2560w"
+  },
+  "/helpmegrow/audience-performance.jpg": {
+    "width": 1396,
+    "height": 1190,
+    "src": "/media/helpmegrow-audience-performance-960.3ebf5f607d25.webp",
+    "srcSet": "/media/helpmegrow-audience-performance-384.20a72a2e8d50.webp 384w, /media/helpmegrow-audience-performance-640.e18ff4bc139f.webp 640w, /media/helpmegrow-audience-performance-960.3ebf5f607d25.webp 960w, /media/helpmegrow-audience-performance-1280.010cc437b61b.webp 1280w, /media/helpmegrow-audience-performance-1396.ec6f42c4ee47.webp 1396w"
+  },
+  "/helpmegrow/audience-planning.png": {
+    "width": 1223,
+    "height": 781,
+    "src": "/media/helpmegrow-audience-planning-960.6938b1d3ec00.webp",
+    "srcSet": "/media/helpmegrow-audience-planning-384.a8c2a2fd7d11.webp 384w, /media/helpmegrow-audience-planning-640.8a283b8200f0.webp 640w, /media/helpmegrow-audience-planning-960.6938b1d3ec00.webp 960w, /media/helpmegrow-audience-planning-1223.02fdb80b65db.webp 1223w"
+  },
+  "/helpmegrow/conversion-early-access.png": {
+    "width": 2052,
+    "height": 900,
+    "src": "/media/helpmegrow-conversion-early-access-960.b503b941349b.webp",
+    "srcSet": "/media/helpmegrow-conversion-early-access-384.cd65a094d23b.webp 384w, /media/helpmegrow-conversion-early-access-640.3cf97289b03a.webp 640w, /media/helpmegrow-conversion-early-access-960.b503b941349b.webp 960w, /media/helpmegrow-conversion-early-access-1280.de492ab5d12c.webp 1280w, /media/helpmegrow-conversion-early-access-1600.3ab9c61f9e4c.webp 1600w, /media/helpmegrow-conversion-early-access-2048.afaf844a94f5.webp 2048w, /media/helpmegrow-conversion-early-access-2052.e4a76a15ffa9.webp 2052w"
+  },
+  "/helpmegrow/hero.jpg": {
+    "width": 2880,
+    "height": 2164,
+    "src": "/media/helpmegrow-hero-960.7da5daa021cf.webp",
+    "srcSet": "/media/helpmegrow-hero-384.19233678b90c.webp 384w, /media/helpmegrow-hero-640.c869515f9559.webp 640w, /media/helpmegrow-hero-960.7da5daa021cf.webp 960w, /media/helpmegrow-hero-1280.beafa9a3ee07.webp 1280w, /media/helpmegrow-hero-1600.c57629c1d4da.webp 1600w, /media/helpmegrow-hero-2048.f792f8bc7663.webp 2048w, /media/helpmegrow-hero-2560.304c71b71d1b.webp 2560w"
+  },
+  "/helpmegrow/product-answer.png": {
+    "width": 1625,
+    "height": 2042,
+    "src": "/media/helpmegrow-product-answer-960.17c5f68c7010.webp",
+    "srcSet": "/media/helpmegrow-product-answer-384.654fca4b64b7.webp 384w, /media/helpmegrow-product-answer-640.8f5ef7aa4077.webp 640w, /media/helpmegrow-product-answer-960.17c5f68c7010.webp 960w, /media/helpmegrow-product-answer-1280.76d6baf8e07a.webp 1280w, /media/helpmegrow-product-answer-1600.16b73b226b18.webp 1600w, /media/helpmegrow-product-answer-1625.626532d74c7c.webp 1625w"
+  },
+  "/helpmegrow/product-engage.png": {
+    "width": 2448,
+    "height": 1026,
+    "src": "/media/helpmegrow-product-engage-960.e73909f49e74.webp",
+    "srcSet": "/media/helpmegrow-product-engage-384.fe42f2aa5c20.webp 384w, /media/helpmegrow-product-engage-640.aeaa49146870.webp 640w, /media/helpmegrow-product-engage-960.e73909f49e74.webp 960w, /media/helpmegrow-product-engage-1280.143b936d7c97.webp 1280w, /media/helpmegrow-product-engage-1600.21068330b076.webp 1600w, /media/helpmegrow-product-engage-2048.8431fb0380fb.webp 2048w, /media/helpmegrow-product-engage-2448.005a35ce423e.webp 2448w"
+  },
+  "/helpmegrow/product-plan.png": {
+    "width": 710,
+    "height": 561,
+    "src": "/media/helpmegrow-product-plan-710.bc98c94da28f.webp",
+    "srcSet": "/media/helpmegrow-product-plan-384.4f5828f15679.webp 384w, /media/helpmegrow-product-plan-640.9970152667b2.webp 640w, /media/helpmegrow-product-plan-710.bc98c94da28f.webp 710w"
+  },
+  "/helpmegrow/product-understand.png": {
+    "width": 1396,
+    "height": 1190,
+    "src": "/media/helpmegrow-product-understand-960.a22170e51150.webp",
+    "srcSet": "/media/helpmegrow-product-understand-384.076ac819ecb4.webp 384w, /media/helpmegrow-product-understand-640.fd6083ea03b0.webp 640w, /media/helpmegrow-product-understand-960.a22170e51150.webp 960w, /media/helpmegrow-product-understand-1280.f51adbfe69de.webp 1280w, /media/helpmegrow-product-understand-1396.490d4b501506.webp 1396w"
+  },
+  "/stackray/evidence.png": {
+    "width": 1440,
+    "height": 575,
+    "src": "/media/stackray-evidence-960.80809b0e771f.webp",
+    "srcSet": "/media/stackray-evidence-384.311ab3021eb2.webp 384w, /media/stackray-evidence-640.b783b2196174.webp 640w, /media/stackray-evidence-960.80809b0e771f.webp 960w, /media/stackray-evidence-1280.86fc6aad0591.webp 1280w, /media/stackray-evidence-1440.9ca11ebea43b.webp 1440w"
+  },
+  "/stackray/hero.png": {
+    "width": 1440,
+    "height": 1000,
+    "src": "/media/stackray-hero-960.99a9cb8d8a72.webp",
+    "srcSet": "/media/stackray-hero-384.e4d0601bef56.webp 384w, /media/stackray-hero-640.bdbfc41d2b74.webp 640w, /media/stackray-hero-960.99a9cb8d8a72.webp 960w, /media/stackray-hero-1280.7de9fc1d427f.webp 1280w, /media/stackray-hero-1440.0e951e6f592e.webp 1440w"
+  },
+  "/stackray/receipt.png": {
+    "width": 510,
+    "height": 450,
+    "src": "/media/stackray-receipt-510.96c00a7bf526.webp",
+    "srcSet": "/media/stackray-receipt-384.6f444f069cc9.webp 384w, /media/stackray-receipt-510.96c00a7bf526.webp 510w"
+  },
+  "/stackray/security.png": {
+    "width": 1440,
+    "height": 653,
+    "src": "/media/stackray-security-960.aad2ad74fff0.webp",
+    "srcSet": "/media/stackray-security-384.af1c130471f5.webp 384w, /media/stackray-security-640.be15cafc43fb.webp 640w, /media/stackray-security-960.aad2ad74fff0.webp 960w, /media/stackray-security-1280.01861a6ed61a.webp 1280w, /media/stackray-security-1440.f8817dc6d6fa.webp 1440w"
+  },
+  "/stackray/waitlist.png": {
+    "width": 1216,
+    "height": 523,
+    "src": "/media/stackray-waitlist-960.5eda2282c2a4.webp",
+    "srcSet": "/media/stackray-waitlist-384.62c5d2817419.webp 384w, /media/stackray-waitlist-640.51f5b957c240.webp 640w, /media/stackray-waitlist-960.5eda2282c2a4.webp 960w, /media/stackray-waitlist-1216.e3e1d7d41ebf.webp 1216w"
+  },
+  "/quillo/explainer-poster.webp": {
+    "width": 1440,
+    "height": 810,
+    "src": "/media/quillo-explainer-poster-960.9979cf69b7b3.webp",
+    "srcSet": "/media/quillo-explainer-poster-384.81131f9aad47.webp 384w, /media/quillo-explainer-poster-640.47d1fe24c92d.webp 640w, /media/quillo-explainer-poster-960.9979cf69b7b3.webp 960w, /media/quillo-explainer-poster-1280.3a6818b25fef.webp 1280w, /media/quillo-explainer-poster-1440.adff514cd1ad.webp 1440w"
+  },
+  "/quillo/landing-conversion.webp": {
+    "width": 1980,
+    "height": 1033,
+    "src": "/media/quillo-landing-conversion-960.be7b25bc84a8.webp",
+    "srcSet": "/media/quillo-landing-conversion-384.fb3e455cf1e8.webp 384w, /media/quillo-landing-conversion-640.2c1bedf369b2.webp 640w, /media/quillo-landing-conversion-960.be7b25bc84a8.webp 960w, /media/quillo-landing-conversion-1280.4264f2cda639.webp 1280w, /media/quillo-landing-conversion-1600.b140191b7740.webp 1600w, /media/quillo-landing-conversion-1980.1d9e0112341d.webp 1980w"
+  },
+  "/quillo/landing-differentiation.webp": {
+    "width": 1980,
+    "height": 1796,
+    "src": "/media/quillo-landing-differentiation-960.01597f1176c0.webp",
+    "srcSet": "/media/quillo-landing-differentiation-384.b44e14cb6998.webp 384w, /media/quillo-landing-differentiation-640.330b45cf212d.webp 640w, /media/quillo-landing-differentiation-960.01597f1176c0.webp 960w, /media/quillo-landing-differentiation-1280.e28633db1e17.webp 1280w, /media/quillo-landing-differentiation-1600.b7b1f341572e.webp 1600w, /media/quillo-landing-differentiation-1980.6f412d6bba3a.webp 1980w"
+  },
+  "/quillo/landing-faq.webp": {
+    "width": 1980,
+    "height": 2027,
+    "src": "/media/quillo-landing-faq-960.d1140a966b8b.webp",
+    "srcSet": "/media/quillo-landing-faq-384.1f33c4106065.webp 384w, /media/quillo-landing-faq-640.4d1622a16b91.webp 640w, /media/quillo-landing-faq-960.d1140a966b8b.webp 960w, /media/quillo-landing-faq-1280.556f23daa5fb.webp 1280w, /media/quillo-landing-faq-1600.5d9b4834abd7.webp 1600w, /media/quillo-landing-faq-1980.7bff4d1a2089.webp 1980w"
+  },
+  "/quillo/landing-hero.webp": {
+    "width": 1980,
+    "height": 3024,
+    "src": "/media/quillo-landing-hero-960.3dba57a424d5.webp",
+    "srcSet": "/media/quillo-landing-hero-384.8bfd4c33a8b8.webp 384w, /media/quillo-landing-hero-640.0730f07bc4b6.webp 640w, /media/quillo-landing-hero-960.3dba57a424d5.webp 960w, /media/quillo-landing-hero-1280.6f2c6fa4f632.webp 1280w, /media/quillo-landing-hero-1600.6a82ee81dfdb.webp 1600w, /media/quillo-landing-hero-1980.5bed1cb3677a.webp 1980w"
+  },
+  "/quillo/landing-how-it-works.webp": {
+    "width": 1980,
+    "height": 3636,
+    "src": "/media/quillo-landing-how-it-works-960.ac6c4786271b.webp",
+    "srcSet": "/media/quillo-landing-how-it-works-384.ead3c53b5b60.webp 384w, /media/quillo-landing-how-it-works-640.10defe2561dd.webp 640w, /media/quillo-landing-how-it-works-960.ac6c4786271b.webp 960w, /media/quillo-landing-how-it-works-1280.87c54055dc11.webp 1280w, /media/quillo-landing-how-it-works-1600.346b7733e135.webp 1600w, /media/quillo-landing-how-it-works-1980.63321bd29c5a.webp 1980w"
+  },
+  "/quillo/landing-preview.webp": {
+    "width": 1980,
+    "height": 1404,
+    "src": "/media/quillo-landing-preview-960.8181201222ad.webp",
+    "srcSet": "/media/quillo-landing-preview-384.6e2c481b30d8.webp 384w, /media/quillo-landing-preview-640.0f47ec9d0157.webp 640w, /media/quillo-landing-preview-960.8181201222ad.webp 960w, /media/quillo-landing-preview-1280.51b9fe5b8587.webp 1280w, /media/quillo-landing-preview-1600.c89ac2715dba.webp 1600w, /media/quillo-landing-preview-1980.bbcbb9fad5e2.webp 1980w"
+  },
+  "/quillo/landing-problem.webp": {
+    "width": 1980,
+    "height": 1654,
+    "src": "/media/quillo-landing-problem-960.93d5e8e71ed2.webp",
+    "srcSet": "/media/quillo-landing-problem-384.51c404dfbe79.webp 384w, /media/quillo-landing-problem-640.299f88445a6a.webp 640w, /media/quillo-landing-problem-960.93d5e8e71ed2.webp 960w, /media/quillo-landing-problem-1280.42380194db96.webp 1280w, /media/quillo-landing-problem-1600.d14ec77b393c.webp 1600w, /media/quillo-landing-problem-1980.0dc45f744221.webp 1980w"
+  },
+  "/quillo/landing-rigor.webp": {
+    "width": 1980,
+    "height": 2713,
+    "src": "/media/quillo-landing-rigor-960.74835cbcbf0d.webp",
+    "srcSet": "/media/quillo-landing-rigor-384.599987c09b3f.webp 384w, /media/quillo-landing-rigor-640.304e661ba18e.webp 640w, /media/quillo-landing-rigor-960.74835cbcbf0d.webp 960w, /media/quillo-landing-rigor-1280.f1b93c8dd0b9.webp 1280w, /media/quillo-landing-rigor-1600.6e3d39404f6d.webp 1600w, /media/quillo-landing-rigor-1980.026e73acfc40.webp 1980w"
+  },
+  "/quillo/landing-why-now.webp": {
+    "width": 1980,
+    "height": 1262,
+    "src": "/media/quillo-landing-why-now-960.ecf4ad5ace4a.webp",
+    "srcSet": "/media/quillo-landing-why-now-384.e677fc049607.webp 384w, /media/quillo-landing-why-now-640.aa121a45ce18.webp 640w, /media/quillo-landing-why-now-960.ecf4ad5ace4a.webp 960w, /media/quillo-landing-why-now-1280.1dce5b67ce27.webp 1280w, /media/quillo-landing-why-now-1600.c1a5abfc98ed.webp 1600w, /media/quillo-landing-why-now-1980.a85ed9717b5a.webp 1980w"
+  },
+  "/agero/arrow.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2020%2020%22%20id%3D%22svg9289230175%22%3E%3Cpath%20d%3D%22M%2013.477%209.167%20L%209.007%204.697%20L%2010.185%203.518%20L%2016.667%2010%20L%2010.185%2016.482%20L%209.007%2015.303%20L%2013.477%2010.833%20L%203.334%2010.833%20L%203.334%209.167%20Z%22%20fill%3D%22var(--token-0ed94250-d537-41c9-bd02-bb402916bf2c%2C%20rgb(255%2C%20255%2C%20255))%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+  },
+  "/agero/check.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20id%3D%224119102008%22%20display%3D%22block%22%20role%3D%22presentation%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%2018%200%20L%201.5%200%20C%200.672%200%200%200.672%200%201.5%20L%200%2015%20C%200%2015.828%200.672%2016.5%201.5%2016.5%20L%2018%2016.5%20C%2018.828%2016.5%2019.5%2015.828%2019.5%2015%20L%2019.5%201.5%20C%2019.5%200.672%2018.828%200%2018%200%20Z%22%20fill-opacity%3D%22var(--1m6trwb%2C%200)%22%20fill%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20height%3D%2216.5px%22%20id%3D%22CcIDqS4bW%22%20transform%3D%22translate(2.25%203.75)%22%20width%3D%2219.5px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200%205.25%20L%203.75%209%20L%2012.75%200%22%20fill%3D%22transparent%22%20height%3D%229px%22%20id%3D%22txP0X4MiU%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(6%207.5)%22%20width%3D%2212.75px%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+  },
+  "/agero/compass.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20id%3D%222784223275%22%20display%3D%22block%22%20role%3D%22presentation%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%209%200%20C%204.029%200%200%204.029%200%209%20C%200%2013.971%204.029%2018%209%2018%20C%2013.971%2018%2018%2013.971%2018%209%20C%2018%204.029%2013.971%200%209%200%20Z%20M%2010.5%2010.5%20L%204.5%2013.5%20L%207.5%207.5%20L%2013.5%204.5%20Z%22%20fill-opacity%3D%22var(--1m6trwb%2C%200)%22%20fill%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20height%3D%2218px%22%20id%3D%22PbAvxXD5p%22%20transform%3D%22translate(3%203)%22%20width%3D%2218px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200%209%20C%200%204.029%204.029%200%209%200%20C%2013.971%200%2018%204.029%2018%209%20C%2018%2013.971%2013.971%2018%209%2018%20C%204.029%2018%200%2013.971%200%209%20Z%22%20fill%3D%22transparent%22%20height%3D%2218px%22%20id%3D%22IWJlu33zL%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(3%203)%22%20width%3D%2218px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%209%200%20L%203%203%20L%200%209%20L%206%206%20Z%22%20fill%3D%22transparent%22%20height%3D%229px%22%20id%3D%22CIH9e3HvX%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(7.5%207.5)%22%20width%3D%229px%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+  },
+  "/agero/flower-orange.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20fill%3D%22none%22%3E%3Cpath%20fill%3D%22%23FF4D00%22%20d%3D%22M.261%201.491C.02.71-.102.317.108.108s.6-.089%201.383.153L7.61%202.155a2.95%202.95%200%200%201%201.946%201.946L12%2012%204.1%209.555a2.95%202.95%200%200%201-1.945-1.946z%22%2F%3E%3Cpath%20fill%3D%22%23FF4D00%22%20d%3D%22m12%2012%207.9%202.445a2.95%202.95%200%200%201%201.945%201.946l1.894%206.118c.242.782.363%201.174.153%201.383s-.6.089-1.383-.153l-6.118-1.894a2.95%202.95%200%200%201-1.946-1.946zl-2.445%207.9a2.95%202.95%200%200%201-1.946%201.945l-6.118%201.894c-.782.242-1.173.363-1.383.153s-.089-.6.153-1.383l1.894-6.118a2.95%202.95%200%200%201%201.946-1.946zl2.445-7.9a2.95%202.95%200%200%201%201.946-1.945L22.509.261c.782-.242%201.174-.363%201.383-.153s.089.6-.153%201.383L21.845%207.61a2.95%202.95%200%200%201-1.946%201.946z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  "/agero/flower.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2219%22%20height%3D%2219%22%20fill%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M2.669%201.972c-.106-.536-.16-.804-.006-.928.154-.125.405-.017.907.198l3.924%201.682A1.966%201.966%200%200%201%208.65%204.349l1.07%205.408-5.067-2.171A1.966%201.966%200%200%201%203.498%206.16l-.83-4.188Z%22%2F%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22m9.72%209.757%205.066%202.172a1.966%201.966%200%200%201%201.155%201.425l.83%204.189c.105.535.158.803.005.928-.154.124-.405.016-.907-.199l-3.925-1.682a1.967%201.967%200%200%201-1.154-1.425L9.72%209.757l-2.172%205.067a1.967%201.967%200%200%201-1.426%201.155l-4.188.829c-.536.106-.803.159-.928.005-.124-.153-.017-.404.198-.906l1.682-3.925a1.966%201.966%200%200%201%201.426-1.154l5.408-1.07%202.17-5.068a1.966%201.966%200%200%201%201.426-1.154l4.188-.83c.536-.105.804-.159.928-.005s.017.405-.198.907l-1.682%203.924a1.966%201.966%200%200%201-1.426%201.155L9.72%209.757Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  "/agero/globe.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20id%3D%22146875479%22%20display%3D%22block%22%20role%3D%22presentation%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%200%209%20C%200%204.029%204.029%200%209%200%20C%2013.971%200%2018%204.029%2018%209%20C%2018%2013.971%2013.971%2018%209%2018%20C%204.029%2018%200%2013.971%200%209%20Z%22%20fill-opacity%3D%22var(--1m6trwb%2C%200)%22%20fill%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20height%3D%2218px%22%20id%3D%22j3DQ2Myaf%22%20transform%3D%22translate(3%203)%22%20width%3D%2218px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200%200%20L%2018%200%22%20fill%3D%22transparent%22%20height%3D%221px%22%20id%3D%22gKxvG0UIA%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(3%2012)%22%20width%3D%2218px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200%209%20C%200%204.029%204.029%200%209%200%20C%2013.971%200%2018%204.029%2018%209%20C%2018%2013.971%2013.971%2018%209%2018%20C%204.029%2018%200%2013.971%200%209%20Z%22%20fill%3D%22transparent%22%20height%3D%2218px%22%20id%3D%22ElC_cWAtq%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(3%203)%22%20width%3D%2218px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%207.5%209%20C%207.5%2015%203.75%2018%203.75%2018%20C%203.75%2018%200%2015%200%209%20C%200%203%203.75%200%203.75%200%20C%203.75%200%207.5%203%207.5%209%20Z%22%20fill%3D%22transparent%22%20height%3D%2218px%22%20id%3D%22pQ0siYsh5%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(8.25%203)%22%20width%3D%227.5px%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+  },
+  "/agero/hello.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2277%22%20height%3D%2224%22%20viewBox%3D%220%200%2077%2024%22%20fill%3D%22none%22%20id%3D%22svg1926813293_1895%22%3E%0A%3Cpath%20d%3D%22M1.04248%2019.9862C4.34814%2018.1485%207.36033%2015.7855%2010.7777%2011.7634C13.1038%209.01767%2014.3545%205.88255%2014.414%203.72013C14.4438%202.11224%2013.6598%200.892473%2012.2105%200.892473C10.6026%200.892473%209.59019%202.11224%208.96488%204.91218C8.28002%207.98933%207.77382%2011.5202%206.49342%2022.8425%22%20stroke%3D%22%23FF4D00%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%3E%3C%2Fpath%3E%0A%3Cpath%20d%3D%22M6.61914%2021.736C7.27467%2015.9736%209.76908%2011.7656%2012.9552%2011.7656C14.8609%2011.7656%2016.072%2013.2842%2015.7281%2015.4579C15.5346%2016.7383%2015.3101%2018.0485%2015.0487%2019.5671C14.7439%2021.4728%2015.615%2022.9616%2018.2543%2022.9616C22.1033%2022.9616%2026.3024%2020.8227%2028.4513%2017.5097C29.1835%2016.381%2029.4812%2015.3686%2029.511%2014.386C29.5408%2012.5994%2028.5284%2011.2594%2026.7418%2011.2594C24.4788%2011.2594%2022.7517%2013.8202%2022.7517%2017.0956C22.7517%2020.6093%2024.6574%2023.0808%2028.7046%2023.0808C34.2075%2023.0808%2040.3028%2016.4749%2043.1035%209.10289C43.8943%207.02142%2044.1909%205.08865%2044.1909%203.738C44.1909%202.13654%2043.6847%200.906851%2042.2554%200.906851C40.8559%200.906851%2039.9329%201.99356%2039.0991%203.70941C38.1222%205.69946%2037.3997%208.56981%2037.1041%2011.8145C36.3596%2019.956%2038.0271%2022.9616%2041.992%2022.9616C46.7996%2022.9616%2052.1447%2016.264%2054.8739%209.0801C55.656%207.02142%2055.9527%205.08865%2055.9527%203.738C55.9527%202.13654%2055.4465%200.906851%2054.0172%200.906851C52.6177%200.906851%2051.6946%201.99356%2050.8609%203.70941C49.884%205.69946%2049.1615%208.56981%2048.8659%2011.8145C48.1214%2019.956%2049.7889%2022.9616%2053.3296%2022.9616C56.8646%2022.9616%2058.7849%2019.8802%2059.9362%2016.6082C61.0743%2013.3736%2062.4738%2011.3785%2065.3919%2011.3785C67.8038%2011.3785%2069.7095%2013.1651%2069.7095%2016.5299C69.7095%2020.252%2067.2947%2023.051%2064.2431%2023.0808C61.5577%2023.1105%2059.7939%2020.9368%2059.9726%2017.6614C60.181%2014.0286%2062.3845%2011.3785%2065.2728%2011.3785C66.9403%2011.3785%2068.3409%2012.1197%2069.4415%2012.9269C72.4256%2015.1038%2074.7248%2013.7585%2075.6053%2011.6061%22%20stroke%3D%22%23FF4D00%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E"
+  },
+  "/agero/layout.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20id%3D%22656846456%22%20display%3D%22block%22%20role%3D%22presentation%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%200%200%20L%2015%200%20L%2015%206.75%20C%2015%207.164%2014.664%207.5%2014.25%207.5%20L%200.75%207.5%20C%200.336%207.5%200%207.164%200%206.75%20Z%22%20fill-opacity%3D%22var(--1m6trwb%2C%200)%22%20fill%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20height%3D%227.5px%22%20id%3D%22V7IG8j9SF%22%20transform%3D%22translate(4.5%2012)%22%20width%3D%2215px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200.75%2015%20C%200.336%2015%200%2014.664%200%2014.25%20L%200%200.75%20C%200%200.336%200.336%200%200.75%200%20L%2014.25%200%20C%2014.664%200%2015%200.336%2015%200.75%20L%2015%2014.25%20C%2015%2014.664%2014.664%2015%2014.25%2015%20Z%22%20fill%3D%22transparent%22%20height%3D%2215px%22%20id%3D%22jMG2r9VSu%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(4.5%204.5)%22%20width%3D%2215px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200%200%20L%2015%200%22%20fill%3D%22transparent%22%20height%3D%221px%22%20id%3D%22dTe_cBdt5%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(4.5%2012)%22%20width%3D%2215px%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+  },
+  "/agero/next.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2240%22%20height%3D%2240%22%3E%3Cpath%20fill%3D%22transparent%22%20stroke%3D%22hsl(0%2C%200%25%2C%20100%25)%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M17.5%2012.5%2025%2020l-7.5%207.5%22%2F%3E%3C%2Fsvg%3E"
+  },
+  "/agero/pen.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20id%3D%222658193374%22%20display%3D%22block%22%20role%3D%22presentation%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%208.25%200%20L%202.655%202.098%20C%202.404%202.192%202.223%202.413%202.179%202.677%20L%200%2015.75%20L%2013.073%2013.571%20C%2013.337%2013.527%2013.558%2013.346%2013.652%2013.095%20L%2015.75%207.5%20Z%20M%207.875%209.75%20C%206.839%209.75%206%208.911%206%207.875%20C%206%206.839%206.839%206%207.875%206%20C%208.911%206%209.75%206.839%209.75%207.875%20C%209.75%208.911%208.911%209.75%207.875%209.75%20Z%22%20fill-opacity%3D%22var(--1m6trwb%2C%200)%22%20fill%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20height%3D%2215.75px%22%20id%3D%22Tq2BEokb8%22%20transform%3D%22translate(3.75%204.5)%22%20width%3D%2215.75px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200%206.549%20L%206.548%200%22%20fill%3D%22transparent%22%20height%3D%226.549374999999998px%22%20id%3D%22gytXusS0U%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(3.751%2013.701)%22%20width%3D%226.548437499999999px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200%201.875%20C%200%200.839%200.839%200%201.875%200%20C%202.911%200%203.75%200.839%203.75%201.875%20C%203.75%202.911%202.911%203.75%201.875%203.75%20C%200.839%203.75%200%202.911%200%201.875%20Z%22%20fill%3D%22transparent%22%20height%3D%223.75px%22%20id%3D%22vFnUL41DN%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(9.75%2010.5)%22%20width%3D%223.75px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%200%2015.75%20L%2013.073%2013.571%20C%2013.337%2013.527%2013.558%2013.346%2013.652%2013.095%20L%2015.75%207.5%20L%208.25%200%20L%202.655%202.098%20C%202.404%202.192%202.223%202.413%202.179%202.677%20Z%22%20fill%3D%22transparent%22%20height%3D%2215.75px%22%20id%3D%22TFuDbLmzI%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(3.75%204.5)%22%20width%3D%2215.75px%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%207.5%2010.5%20L%2010.281%207.719%20C%2010.573%207.427%2010.573%206.952%2010.281%206.659%20L%203.844%200.219%20C%203.551%20-0.073%203.076%20-0.073%202.783%200.219%20L%200%203%22%20fill%3D%22transparent%22%20height%3D%2210.500121135182846px%22%20id%3D%22GGOMLSwJq%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(12%201.5)%22%20width%3D%2210.500121135182837px%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+  },
+  "/agero/planet.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20fill%3D%22none%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M3.265%206.697a7.5%207.5%200%200%200%2010.04%2010.037c.727.311%201.432.515%202.075.568.752.061%201.537-.08%202.105-.648.627-.627.734-1.513.622-2.343-.103-.758-.4-1.6-.835-2.468a7.5%207.5%200%200%200-9.113-9.115c-.87-.436-1.712-.735-2.47-.838-.832-.112-1.719-.006-2.346.622-.57.569-.71%201.354-.648%202.107.053.644.258%201.35.57%202.078m1.17-1.725a3.5%203.5%200%200%201-.079-.49c-.04-.488.075-.702.165-.792.1-.099.352-.228.943-.148q.248.033.536.113c-.58.366-1.107.81-1.565%201.317m11.909%209.03q.078.286.11.532c.08.59-.049.842-.148.941-.09.09-.303.205-.79.166a3.4%203.4%200%200%201-.485-.078%207.5%207.5%200%200%200%201.313-1.56Zm-3.11.853c-1.397-.731-3.02-1.936-4.588-3.504-1.567-1.567-2.77-3.188-3.502-4.584a5.85%205.85%200%200%201%203.164-2.351%205.833%205.833%200%200%201%204.927%2010.44Zm-1.896.824A5.833%205.833%200%200%201%204.32%208.663c.803%201.265%201.875%202.594%203.146%203.866%201.274%201.274%202.605%202.346%203.87%203.15Z%22%2F%3E%3C%2Fsvg%3E"
+  },
+  "/agero/plus.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20id%3D%22svg-1347167664_452%22%3E%0A%3Cpath%20d%3D%22M8.00004%2014.6663C4.31814%2014.6663%201.33337%2011.6815%201.33337%207.99967C1.33337%204.31777%204.31814%201.33301%208.00004%201.33301C11.6819%201.33301%2014.6667%204.31777%2014.6667%207.99967C14.6667%2011.6815%2011.6819%2014.6663%208.00004%2014.6663ZM7.33337%207.33301H4.66671V8.66634H7.33337V11.333H8.66671V8.66634H11.3334V7.33301H8.66671V4.66634H7.33337V7.33301Z%22%20fill%3D%22%23131313%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E"
+  },
+  "/agero/previous.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2240%22%20height%3D%2240%22%3E%3Cpath%20fill%3D%22transparent%22%20stroke%3D%22hsl(0%2C%200%25%2C%20100%25)%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M22.5%2012.5%2015%2020l7.5%207.5%22%2F%3E%3C%2Fsvg%3E"
+  },
+  "/agero/star.svg": {
+    "src": "data:image/svg+xml,%3Csvg%20id%3D%224014637573%22%20display%3D%22block%22%20role%3D%22presentation%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M%2012.731%2012.731%20L%2010.449%2019.007%20C%2010.34%2019.3%2010.059%2019.496%209.746%2019.496%20C%209.432%2019.496%209.152%2019.3%209.043%2019.007%20L%206.765%2012.731%20L%200.489%2010.449%20C%200.195%2010.34%200%2010.059%200%209.746%20C%200%209.432%200.195%209.152%200.489%209.043%20L%206.765%206.765%20L%209.047%200.489%20C%209.156%200.195%209.436%200%209.75%200%20C%2010.063%200%2010.344%200.195%2010.453%200.489%20L%2012.735%206.765%20L%2019.01%209.047%20C%2019.304%209.156%2019.499%209.436%2019.499%209.75%20C%2019.499%2010.063%2019.304%2010.344%2019.01%2010.453%20Z%22%20fill%3D%22transparent%22%20height%3D%2219.495522090984686px%22%20id%3D%22XWY4XiNtR%22%20stroke-dasharray%3D%22%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%22var(--pgex8v%2C%201.5)%22%20stroke%3D%22var(--21h8s6%2C%20rgb(0%2C%200%2C%200))%22%20transform%3D%22translate(2.252%202.252)%22%20width%3D%2219.499272090984686px%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+  }
+}

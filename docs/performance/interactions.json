@@ -1,0 +1,30 @@
+[
+  {
+    "width": 390,
+    "errors": [],
+    "passed": [
+      "mobile menu and anchor navigation",
+      "service tabs and images",
+      "FAQ",
+      "process accordion",
+      "studio carousel",
+      "internal links and fragment targets",
+      "case-study walkthrough",
+      "video playback"
+    ]
+  },
+  {
+    "width": 1440,
+    "errors": [],
+    "passed": [
+      "mobile menu and anchor navigation",
+      "service tabs and images",
+      "FAQ",
+      "process accordion",
+      "studio carousel",
+      "internal links and fragment targets",
+      "case-study walkthrough",
+      "video playback"
+    ]
+  }
+]

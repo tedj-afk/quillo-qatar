@@ -1,0 +1,867 @@
+{
+  "mobile": {
+    "url": "https://www.byhippo.design",
+    "errors": [],
+    "requests": [
+      {
+        "url": "https://www.byhippo.design/",
+        "status": 200,
+        "type": "Document",
+        "bytes": 10609,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/hippo-logo.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 27599,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/css/1c433715988a1b93.css",
+        "status": 200,
+        "type": "Stylesheet",
+        "bytes": 647,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/css/d7b7e467aa59a312.css",
+        "status": 200,
+        "type": "Stylesheet",
+        "bytes": 9214,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/media/64a452275b1968c2.p.woff2",
+        "status": 200,
+        "type": "Font",
+        "bytes": 31966,
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/banner.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 89109,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/hero-work.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 8144,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/css/87d0cfbfdf2afcc5.css",
+        "status": 200,
+        "type": "Stylesheet",
+        "bytes": 27676,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/hero-design-original.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 4181125,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/arrow.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 527,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/hero-world.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 24468,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/pen.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 866,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/star.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 977,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/layout.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 619,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/cal-sans.woff2",
+        "status": 200,
+        "type": "Font",
+        "bytes": 37057,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/inter-medium.woff2",
+        "status": 200,
+        "type": "Font",
+        "bytes": 28204,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/notch.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 505,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/compass.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 665,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/inter-regular.woff2",
+        "status": 200,
+        "type": "Font",
+        "bytes": 27606,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/webpack-c823ae4e807f77e6.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 1986,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/main-app-496b410f31b8efa4.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 968,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/app/page-194c25f4eab391ec.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 9713,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/794-1bbbed77d5180dff.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 65615,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/112-5d15f5dbe3e93c6f.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 9058,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/4bd1b696-58970b7b91aecaf4.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 64843,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/b468fba8-08ace0a152db6f63.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 95156,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/flower.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 1024,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/globe.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 593,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/hello.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 1081,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/app/layout-2738e03bef27829c.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 2592,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/237-beed01d636f7bf2c.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 47946,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/previous.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 385,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/texture.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 533258,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/next.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 379,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/flower-orange.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 874,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/sparkle.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 504,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/check.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 930,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/service-brand.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 231329,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/planet.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 1052,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/orange-glow.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 7116,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/footer.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 32775,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/plus.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 620,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/proof-1.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 118104,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/proof-2.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 43870,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/contact.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 53766,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/proof-3.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 21914,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/array/phc_ouSCz6PWSdNcQhpT9F9qc4AHn2vuTUmhjjBZc6gQe4vL/config.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 991,
+        "encoding": "gzip",
+        "cacheControl": "public, max-age=300"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/1.429.1/dead-clicks-autocapture.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 8376,
+        "encoding": "br",
+        "cacheControl": "public, max-age=31536000, immutable"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/1.429.1/surveys.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 34176,
+        "encoding": "br",
+        "cacheControl": "public, max-age=31536000, immutable"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/1.429.1/web-vitals-with-attribution.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 7150,
+        "encoding": "br",
+        "cacheControl": "public, max-age=31536000, immutable"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/1.429.1/posthog-recorder.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 67637,
+        "encoding": "br",
+        "cacheControl": "public, max-age=31536000, immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/favicon.ico",
+        "status": 200,
+        "type": "Other",
+        "bytes": 2892,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/work-bg-1.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 78426,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/stackray-desktop.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 67612,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/helpmegrow/hero.jpg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 580281,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/work-bg-3.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 106044,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/quillo/landing-preview.webp",
+        "status": 200,
+        "type": "Image",
+        "bytes": 87662,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/work-bg-2.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 177668,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      }
+    ]
+  },
+  "desktop": {
+    "url": "https://www.byhippo.design",
+    "errors": [],
+    "requests": [
+      {
+        "url": "https://www.byhippo.design/",
+        "status": 200,
+        "type": "Document",
+        "bytes": 10608,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/media/64a452275b1968c2.p.woff2",
+        "status": 200,
+        "type": "Font",
+        "bytes": 32026,
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/compass.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 603,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/banner.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 89127,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/layout.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 619,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/hero-work.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 8150,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/star.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 959,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/hippo-logo.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 27543,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/main-app-496b410f31b8efa4.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 989,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/hero-world.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 24475,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/webpack-c823ae4e807f77e6.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 1939,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/112-5d15f5dbe3e93c6f.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 9035,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/css/1c433715988a1b93.css",
+        "status": 200,
+        "type": "Stylesheet",
+        "bytes": 592,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/pen.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 870,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/globe.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 672,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/arrow.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 488,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/hello.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 1049,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/css/d7b7e467aa59a312.css",
+        "status": 200,
+        "type": "Stylesheet",
+        "bytes": 9214,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/app/page-194c25f4eab391ec.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 9689,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/237-beed01d636f7bf2c.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 47940,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/app/layout-2738e03bef27829c.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 2590,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/flower.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 969,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/794-1bbbed77d5180dff.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 65613,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/css/87d0cfbfdf2afcc5.css",
+        "status": 200,
+        "type": "Stylesheet",
+        "bytes": 27694,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/4bd1b696-58970b7b91aecaf4.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 64878,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/_next/static/chunks/b468fba8-08ace0a152db6f63.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 95183,
+        "encoding": "br",
+        "cacheControl": "public,max-age=31536000,immutable"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/array/phc_ouSCz6PWSdNcQhpT9F9qc4AHn2vuTUmhjjBZc6gQe4vL/config.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 991,
+        "encoding": "gzip",
+        "cacheControl": "public, max-age=300"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/1.429.1/dead-clicks-autocapture.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 8630,
+        "encoding": "br",
+        "cacheControl": "public, max-age=31536000, immutable"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/1.429.1/web-vitals-with-attribution.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 7061,
+        "encoding": "br",
+        "cacheControl": "public, max-age=31536000, immutable"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/1.429.1/surveys.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 34263,
+        "encoding": "br",
+        "cacheControl": "public, max-age=31536000, immutable"
+      },
+      {
+        "url": "https://us-assets.i.posthog.com/static/1.429.1/posthog-recorder.js",
+        "status": 200,
+        "type": "Script",
+        "bytes": 67322,
+        "encoding": "br",
+        "cacheControl": "public, max-age=31536000, immutable"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/hero-design-original.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 4181145,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/sparkle.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 504,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/planet.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 1131,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/contact.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 53750,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/check.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 859,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/plus.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 620,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/next.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 352,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/previous.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 397,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/footer.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 32738,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/flower-orange.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 857,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/orange-glow.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 7200,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/service-brand.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 231362,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/texture.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 533223,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/notch.svg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 499,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/inter-regular.woff2",
+        "status": 200,
+        "type": "Font",
+        "bytes": 27644,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/cal-sans.woff2",
+        "status": 200,
+        "type": "Font",
+        "bytes": 37047,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/inter-medium.woff2",
+        "status": 200,
+        "type": "Font",
+        "bytes": 28204,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/favicon.ico",
+        "status": 200,
+        "type": "Other",
+        "bytes": 2836,
+        "encoding": "br",
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/proof-1.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 118112,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/proof-2.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 43876,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/proof-3.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 21964,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/work-bg-1.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 78417,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/stackray-desktop.png",
+        "status": 200,
+        "type": "Image",
+        "bytes": 67603,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/work-bg-2.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 177697,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/agero/work-bg-3.avif",
+        "status": 200,
+        "type": "Image",
+        "bytes": 106027,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      },
+      {
+        "url": "https://www.byhippo.design/helpmegrow/hero.jpg",
+        "status": 200,
+        "type": "Image",
+        "bytes": 580234,
+        "cacheControl": "public, max-age=0, must-revalidate"
+      }
+    ]
+  }
+}

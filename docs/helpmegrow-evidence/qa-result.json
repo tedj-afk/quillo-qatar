@@ -1,0 +1,410 @@
+{
+  "passed": true,
+  "mobile": [
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "links": [
+        {
+          "text": "Overview",
+          "left": 50.625,
+          "right": 104.265625,
+          "inside": true
+        },
+        {
+          "text": "Strategy",
+          "left": 128.265625,
+          "right": 176.0625,
+          "inside": true
+        },
+        {
+          "text": "Experience",
+          "left": 200.0625,
+          "right": 263.71875,
+          "inside": true
+        },
+        {
+          "text": "Outcome",
+          "left": 287.71875,
+          "right": 339.359375,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "links": [
+        {
+          "text": "Overview",
+          "left": 33.625,
+          "right": 87.265625,
+          "inside": true
+        },
+        {
+          "text": "Strategy",
+          "left": 99.265625,
+          "right": 147.0625,
+          "inside": true
+        },
+        {
+          "text": "Experience",
+          "left": 159.0625,
+          "right": 222.71875,
+          "inside": true
+        },
+        {
+          "text": "Outcome",
+          "left": 234.71875,
+          "right": 286.359375,
+          "inside": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "analyticsEvents": [
+    {
+      "event": "case study clicked",
+      "properties": {
+        "location": "recent_work",
+        "label": "HelpMeGrow",
+        "target": "/case-studies/helpmegrow",
+        "input_method": "pointer",
+        "project": "helpmegrow",
+        "page": "landing",
+        "page_path": "/",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "project",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study clicked",
+      "properties": {
+        "location": "case_study",
+        "label": "Overview",
+        "target": "/case-studies/helpmegrow#snapshot",
+        "input_method": "pointer",
+        "project": "helpmegrow",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "snapshot",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study clicked",
+      "properties": {
+        "location": "case_study",
+        "label": "Strategy",
+        "target": "/case-studies/helpmegrow#strategy",
+        "input_method": "pointer",
+        "project": "helpmegrow",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "challenge",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "audience",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "strategy",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study clicked",
+      "properties": {
+        "location": "case_study",
+        "label": "Experience",
+        "target": "/case-studies/helpmegrow#experience",
+        "input_method": "pointer",
+        "project": "helpmegrow",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "journey",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "experience",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study clicked",
+      "properties": {
+        "location": "case_study",
+        "label": "Outcome",
+        "target": "/case-studies/helpmegrow#outcome",
+        "input_method": "pointer",
+        "project": "helpmegrow",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "everyday-work",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "product-proof",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "conversion",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "next-iteration",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "outcome",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study walkthrough selected",
+      "properties": {
+        "location": "helpmegrow_product_proof",
+        "step": 1,
+        "label": "Understand",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study walkthrough selected",
+      "properties": {
+        "location": "helpmegrow_product_proof",
+        "step": 2,
+        "label": "Answer",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study walkthrough selected",
+      "properties": {
+        "location": "helpmegrow_product_proof",
+        "step": 3,
+        "label": "Engage",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study walkthrough selected",
+      "properties": {
+        "location": "helpmegrow_product_proof",
+        "step": 4,
+        "label": "Plan",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study walkthrough selected",
+      "properties": {
+        "location": "helpmegrow_product_proof",
+        "step": 1,
+        "label": "Understand",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study walkthrough selected",
+      "properties": {
+        "location": "helpmegrow_product_proof",
+        "step": 4,
+        "label": "Plan",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "product-proof",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study walkthrough selected",
+      "properties": {
+        "location": "helpmegrow_product_proof",
+        "step": 2,
+        "label": "Answer",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "next-iteration",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study clicked",
+      "properties": {
+        "location": "next_project",
+        "label": "HelpMeGrow",
+        "target": "/case-studies/helpmegrow",
+        "input_method": "pointer",
+        "project": "helpmegrow",
+        "page": "case_study",
+        "page_path": "/case-studies/stackray",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "project",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "case study clicked",
+      "properties": {
+        "location": "next_project",
+        "label": "Atlas Mode",
+        "target": "/case-studies/atlas-mode",
+        "input_method": "pointer",
+        "project": "atlas-mode",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    },
+    {
+      "event": "section viewed",
+      "properties": {
+        "section": "footer",
+        "page": "case_study",
+        "page_path": "/case-studies/helpmegrow",
+        "schema_version": 2,
+        "environment": "local_preview"
+      }
+    }
+  ]
+}

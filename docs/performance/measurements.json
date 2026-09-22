@@ -1,0 +1,58 @@
+{
+  "baseline-mobile": {
+    "score": 71,
+    "largest-contentful-paint": 5549.432000000002,
+    "first-contentful-paint": 1746.6989999999998,
+    "total-blocking-time": 120.5,
+    "cumulative-layout-shift": 0.01010433801749009,
+    "total-byte-weight": 5844763,
+    "speed-index": 6998.085345472164,
+    "requests": 47,
+    "imageBytes": 5380224,
+    "lighthouseVersion": "13.5.0",
+    "chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "fetchTime": "2026-09-20T06:48:34.234Z"
+  },
+  "baseline-desktop": {
+    "score": 74,
+    "largest-contentful-paint": 4781.1704,
+    "first-contentful-paint": 431.75559999999996,
+    "total-blocking-time": 8,
+    "cumulative-layout-shift": 0.00003777113796223331,
+    "total-byte-weight": 5844763,
+    "speed-index": 1976.9945192376372,
+    "requests": 47,
+    "imageBytes": 5380224,
+    "lighthouseVersion": "13.5.0",
+    "chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "fetchTime": "2026-09-20T06:49:39.358Z"
+  },
+  "final-mobile": {
+    "score": 94,
+    "largest-contentful-paint": 3067.204275,
+    "first-contentful-paint": 1217.31795,
+    "total-blocking-time": 57.5,
+    "cumulative-layout-shift": 0,
+    "total-byte-weight": 348158,
+    "speed-index": 1217.31795,
+    "requests": 19,
+    "imageBytes": 41222,
+    "lighthouseVersion": "13.5.0",
+    "chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "fetchTime": "2026-09-20T07:04:06.852Z"
+  },
+  "final-desktop": {
+    "score": 100,
+    "largest-contentful-paint": 751.9265,
+    "first-contentful-paint": 343.937,
+    "total-blocking-time": 0,
+    "cumulative-layout-shift": 0,
+    "total-byte-weight": 380080,
+    "speed-index": 343.937,
+    "requests": 22,
+    "imageBytes": 73144,
+    "lighthouseVersion": "13.5.0",
+    "chrome": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36",
+    "fetchTime": "2026-09-20T07:05:03.869Z"
+  }
+}

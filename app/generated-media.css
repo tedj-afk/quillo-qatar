@@ -1,0 +1,4 @@
+@font-face{font-family:AG Cal;src:url('/fonts/cal-sans.4b19771e2a0b.woff2') format('woff2');font-display:swap;font-weight:400}
+@font-face{font-family:AG Inter;src:url('/fonts/inter-regular.9f389ff543ad.woff2') format('woff2');font-display:swap;font-weight:400}
+@font-face{font-family:AG Inter;src:url('/fonts/inter-medium.a1d1d10b80cc.woff2') format('woff2');font-display:swap;font-weight:500 700}
+:root{--ag-orange-glow:url('/media/agero-orange-glow-960.6e37a5210b4e.avif')}

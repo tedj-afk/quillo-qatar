@@ -1,0 +1,476 @@
+ M app/case-studies/stackray-story.css
+ M app/components/agero-chrome.tsx
+ M app/components/case-study-view.tsx
+ M app/components/helpmegrow-story.tsx
+ M app/components/quillo-story.tsx
+ M app/components/stackray-story.tsx
+ M app/globals.css
+ M app/home.css
+ M app/layout.tsx
+ M app/page.tsx
+ M instrumentation-client.ts
+ M lib/analytics.ts
+ M package-lock.json
+ M package.json
+ D public/agero/01a81b8398991ec9.png
+ D public/agero/04cfb4dae693fb44.svg
+ D public/agero/0b272735aa20eaab.svg
+ D public/agero/0ff1c1adead21608.svg
+ D public/agero/12c30fe253b82877.svg
+ D public/agero/14486f6be866bb8f.svg
+ D public/agero/185757a0c5a0587e.svg
+ D public/agero/18609652482112b9.svg
+ D public/agero/19ab69d46b122362.svg
+ D public/agero/1a7a78710ea492f5.svg
+ D public/agero/1bffd5bd880c5b80.svg
+ D public/agero/1dfa7390c3cca9b3.png
+ D public/agero/2072b8d8ba2717ff.png
+ D public/agero/239c6c182d096ebe.svg
+ D public/agero/26fd559bacef16ff.svg
+ D public/agero/27b007d073a4d197.svg
+ D public/agero/2a69dca66b9caa6b.png
+ D public/agero/2a9d38dce1d6d210.png
+ D public/agero/2ef263ccd217fcea.svg
+ D public/agero/324eaea16aa60b37.svg
+ D public/agero/353266575034029c.png
+ D public/agero/39a059066bb1a949.svg
+ D public/agero/3b8e627a3840bc97.png
+ D public/agero/3c3b110b1d7f7b98.png
+ D public/agero/407833a20ac85afd.svg
+ D public/agero/40a4aaa12cf4dcf4.svg
+ D public/agero/42cef2393ba359db.png
+ D public/agero/45902b01302eb64b.png
+ D public/agero/49e4903a9a91a270.png
+ D public/agero/4d4a4286841e4261.svg
+ D public/agero/4f056765ea3b7c81.svg
+ D public/agero/5524841ee22de2ea.png
+ D public/agero/5568798f81de86a6.png
+ D public/agero/59a3e14ce2c8270a.svg
+ D public/agero/5a3134c09776a5d9.svg
+ D public/agero/5cbaf883073eacca.svg
+ D public/agero/5cd1f85a44b8de66.svg
+ D public/agero/61be9330163a0922.svg
+ D public/agero/646094ac8f1700dd.svg
+ D public/agero/66a1a0ee6de95a4d.svg
+ D public/agero/6be63efea63d54fa.png
+ D public/agero/76c9aa095862b3ab.svg
+ D public/agero/7d128c1f88a3eadc.svg
+ D public/agero/803ebd64ae2e8aea.svg
+ D public/agero/82d90730baf1ebd2.png
+ D public/agero/8667090eab06a040.svg
+ D public/agero/8c83869fdeac9838.svg
+ D public/agero/8de7a55c2f88dfe4.svg
+ D public/agero/9069a7790cde9d3c.svg
+ D public/agero/90df5c078730ca3d.png
+ D public/agero/92c22d0cdba7c5a6.png
+ D public/agero/9a8a02027627b7fb.png
+ D public/agero/9bf432235626e417.svg
+ D public/agero/9cfea6b4c24a104f.svg
+ D public/agero/a4392ceefb79924e.png
+ D public/agero/a4ce2882310fb6ea.png
+ D public/agero/a7a049bc4eb76d34.svg
+ D public/agero/a90ff1fb495ef6cd.svg
+ D public/agero/a937ad4597533680.svg
+ D public/agero/ad29d93a2ff9055c.svg
+ D public/agero/ad56a1a706237a7a.svg
+ D public/agero/b0c79966ac6935d2.svg
+ D public/agero/b2dd40059efcb4b6.svg
+ D public/agero/b562e2a6cf46c504.png
+ D public/agero/b638bb181a6f2d1f.png
+ D public/agero/banner.avif
+ D public/agero/bbacde09244d29f1.svg
+ D public/agero/c105deaf82910b31.png
+ D public/agero/c170c2e1dc633fec.svg
+ D public/agero/c626b81b741fe9a9.svg
+ D public/agero/c7f33bacf417bed6.svg
+ D public/agero/ca8715581a26b2cb.png
+ D public/agero/cal-sans.woff2
+ D public/agero/contact.avif
+ D public/agero/d0113dadf5bce41d.png
+ D public/agero/d1fcea9a501f75a0.svg
+ D public/agero/d8bd26baec8652d6.svg
+ D public/agero/dca4bb05f0a26b51.png
+ D public/agero/df1d6096f2566e49.png
+ D public/agero/e2cf250839b203af.png
+ D public/agero/e71f2e8fc86e1a81.svg
+ D public/agero/e8e6d8fce300806f.svg
+ D public/agero/e98350cf434b9c57.svg
+ D public/agero/e99ff098e8998706.svg
+ D public/agero/ec04466d4c7605a9.svg
+ D public/agero/ecb54d45ef01e4ae.svg
+ D public/agero/f30e3578b18480d5.png
+ D public/agero/f3fc69a94eacb6b5.svg
+ D public/agero/fe3ae443ae86a480.png
+ D public/agero/ff9ef97b838e2981.svg
+ D public/agero/footer.avif
+ D public/agero/hero-design-original.png
+ D public/agero/hero-design-thumb.avif
+ D public/agero/hero-design.svg
+ D public/agero/hero-work.avif
+ D public/agero/hero-world.avif
+ D public/agero/inter-medium.woff2
+ D public/agero/inter-regular.woff2
+ D public/agero/orange-glow.avif
+ D public/agero/proof-1.avif
+ D public/agero/proof-2.avif
+ D public/agero/proof-3.avif
+ D public/agero/service-brand.png
+ D public/agero/service-logo.avif
+ D public/agero/service-web.avif
+ D public/agero/sparkle.png
+ D public/agero/stackray-desktop.png
+ D public/agero/texture.avif
+ D public/agero/work-1.avif
+ D public/agero/work-2.avif
+ D public/agero/work-3.avif
+ D public/agero/work-bg-1.avif
+ D public/agero/work-bg-2.avif
+ D public/agero/work-bg-3.avif
+ D public/helpmegrow/analytics.jpg
+ D public/helpmegrow/audience-conversations.png
+ D public/helpmegrow/audience-performance.jpg
+ D public/helpmegrow/audience-planning.png
+ D public/helpmegrow/benefits.jpg
+ D public/helpmegrow/comments.jpg
+ D public/helpmegrow/conversion-early-access.png
+ D public/helpmegrow/early-access.jpg
+ D public/helpmegrow/hero.jpg
+ D public/helpmegrow/inbox.jpg
+ D public/helpmegrow/product-answer.png
+ D public/helpmegrow/product-engage.png
+ D public/helpmegrow/product-plan.png
+ D public/helpmegrow/product-understand.png
+ D public/helpmegrow/scheduler.jpg
+ D public/hippo-logo.png
+ D public/quillo/explainer-poster.webp
+ D public/quillo/landing-conversion.webp
+ D public/quillo/landing-differentiation.webp
+ D public/quillo/landing-faq.webp
+ D public/quillo/landing-hero.webp
+ D public/quillo/landing-how-it-works.webp
+ D public/quillo/landing-preview.webp
+ D public/quillo/landing-problem.webp
+ D public/quillo/landing-rigor.webp
+ D public/quillo/landing-why-now.webp
+ D public/stackray/evidence.png
+ D public/stackray/hero.png
+ D public/stackray/receipt.png
+ D public/stackray/security.png
+ D public/stackray/waitlist.png
+?? app/components/deferred-image.tsx
+?? app/components/responsive-image.tsx
+?? app/generated-media.css
+?? assets/font-sources/cal-sans.woff2
+?? assets/font-sources/inter-medium.woff2
+?? assets/font-sources/inter-regular.woff2
+?? assets/fonts/cal-sans.woff2
+?? assets/fonts/inter-medium.woff2
+?? assets/fonts/inter-regular.woff2
+?? assets/images/agero/banner.avif
+?? assets/images/agero/contact.avif
+?? assets/images/agero/footer.avif
+?? assets/images/agero/hero-design-original.png
+?? assets/images/agero/hero-work.avif
+?? assets/images/agero/hero-world.avif
+?? assets/images/agero/orange-glow.avif
+?? assets/images/agero/proof-1.avif
+?? assets/images/agero/proof-2.avif
+?? assets/images/agero/proof-3.avif
+?? assets/images/agero/service-brand.png
+?? assets/images/agero/service-logo.avif
+?? assets/images/agero/service-web.avif
+?? assets/images/agero/sparkle.png
+?? assets/images/agero/stackray-desktop.png
+?? assets/images/agero/texture.avif
+?? assets/images/agero/work-2.avif
+?? assets/images/agero/work-3.avif
+?? assets/images/agero/work-bg-1.avif
+?? assets/images/agero/work-bg-2.avif
+?? assets/images/agero/work-bg-3.avif
+?? assets/images/helpmegrow/audience-conversations.png
+?? assets/images/helpmegrow/audience-performance.jpg
+?? assets/images/helpmegrow/audience-planning.png
+?? assets/images/helpmegrow/conversion-early-access.png
+?? assets/images/helpmegrow/hero.jpg
+?? assets/images/helpmegrow/product-answer.png
+?? assets/images/helpmegrow/product-engage.png
+?? assets/images/helpmegrow/product-plan.png
+?? assets/images/helpmegrow/product-understand.png
+?? assets/images/hippo-logo.png
+?? assets/images/quillo/explainer-poster.webp
+?? assets/images/quillo/landing-conversion.webp
+?? assets/images/quillo/landing-differentiation.webp
+?? assets/images/quillo/landing-faq.webp
+?? assets/images/quillo/landing-hero.webp
+?? assets/images/quillo/landing-how-it-works.webp
+?? assets/images/quillo/landing-preview.webp
+?? assets/images/quillo/landing-problem.webp
+?? assets/images/quillo/landing-rigor.webp
+?? assets/images/quillo/landing-why-now.webp
+?? assets/images/sources.json
+?? assets/images/stackray/evidence.png
+?? assets/images/stackray/hero.png
+?? assets/images/stackray/receipt.png
+?? assets/images/stackray/security.png
+?? assets/images/stackray/waitlist.png
+?? docs/performance/README.md
+?? docs/performance/assets-before.json
+?? docs/performance/build-after.txt
+?? docs/performance/build-before.txt
+?? docs/performance/changed-files.txt
+?? docs/performance/image-variants.json
+?? docs/performance/interactions.json
+?? docs/performance/lighthouse/baseline-desktop-lighthouse.report.html
+?? docs/performance/lighthouse/baseline-desktop-lighthouse.report.json
+?? docs/performance/lighthouse/baseline-mobile-lighthouse.report.html
+?? docs/performance/lighthouse/baseline-mobile-lighthouse.report.json
+?? docs/performance/lighthouse/final-desktop-lighthouse.report.html
+?? docs/performance/lighthouse/final-desktop-lighthouse.report.json
+?? docs/performance/lighthouse/final-mobile-lighthouse.report.html
+?? docs/performance/lighthouse/final-mobile-lighthouse.report.json
+?? docs/performance/live-network.json
+?? docs/performance/measurements.json
+?? docs/performance/regression.json
+?? docs/performance/screenshots/final-desktop-top.png
+?? docs/performance/screenshots/final-mobile-top.png
+?? docs/performance/screenshots/quality-after.png
+?? docs/performance/screenshots/quality-before.png
+?? docs/performance/transfer-summary.json
+?? lib/analytics-client.ts
+?? lib/generated/fonts.json
+?? lib/generated/images.json
+?? lib/image-props.ts
+?? public/fonts/cal-sans.4b19771e2a0b.woff2
+?? public/fonts/inter-medium.a1d1d10b80cc.woff2
+?? public/fonts/inter-regular.9f389ff543ad.woff2
+?? public/media/agero-banner-1280.daacfe88f38f.avif
+?? public/media/agero-banner-1600.df599fcb393c.avif
+?? public/media/agero-banner-2048.aa0bd7caedee.avif
+?? public/media/agero-banner-384.4a18fefed6c9.avif
+?? public/media/agero-banner-640.60ec677fe176.avif
+?? public/media/agero-banner-960.74253de3f8cd.avif
+?? public/media/agero-contact-1280.762d420da31e.avif
+?? public/media/agero-contact-1600.3375c2f51fea.avif
+?? public/media/agero-contact-2048.6fbece02e0b4.avif
+?? public/media/agero-contact-384.45abe62449cb.avif
+?? public/media/agero-contact-640.78ce5735bbd5.avif
+?? public/media/agero-contact-960.62c578126a00.avif
+?? public/media/agero-footer-1280.b1604d62f9e2.avif
+?? public/media/agero-footer-1600.388c0d1d4c03.avif
+?? public/media/agero-footer-2048.d3376c4ac296.avif
+?? public/media/agero-footer-384.46298621c7a6.avif
+?? public/media/agero-footer-640.51ade14af00d.avif
+?? public/media/agero-footer-960.8533d4bb566b.avif
+?? public/media/agero-hero-design-original-164.b16feb0606d5.webp
+?? public/media/agero-hero-design-original-246.38f00ceaddcb.webp
+?? public/media/agero-hero-design-original-82.e16461a491ed.webp
+?? public/media/agero-hero-work-164.d88fdc0c7fe2.avif
+?? public/media/agero-hero-work-246.0ec5b1fcaf5c.avif
+?? public/media/agero-hero-work-82.09332fedd4e1.avif
+?? public/media/agero-hero-world-164.92cb6e105dad.avif
+?? public/media/agero-hero-world-246.2eea4ec65626.avif
+?? public/media/agero-hero-world-82.95f7df26853a.avif
+?? public/media/agero-orange-glow-1024.8c76ee31b0d3.avif
+?? public/media/agero-orange-glow-384.cc02605728e6.avif
+?? public/media/agero-orange-glow-640.2a56f72f87e4.avif
+?? public/media/agero-orange-glow-960.6e37a5210b4e.avif
+?? public/media/agero-proof-1-1024.96bff9fa58b7.avif
+?? public/media/agero-proof-1-384.696c82345f56.avif
+?? public/media/agero-proof-1-640.177f2d8b68c3.avif
+?? public/media/agero-proof-1-960.5bc6274f49ec.avif
+?? public/media/agero-proof-2-1024.4b712d944f9c.avif
+?? public/media/agero-proof-2-384.2be71f03f359.avif
+?? public/media/agero-proof-2-640.1c23d7fc7309.avif
+?? public/media/agero-proof-2-960.a9ce549ec8b3.avif
+?? public/media/agero-proof-3-1024.39780ee89c0a.avif
+?? public/media/agero-proof-3-384.4abc12231717.avif
+?? public/media/agero-proof-3-640.8afb8335d148.avif
+?? public/media/agero-proof-3-960.37414ba365dc.avif
+?? public/media/agero-service-brand-1024.f6258c8cf62a.webp
+?? public/media/agero-service-brand-384.52cfc75d0c95.webp
+?? public/media/agero-service-brand-640.910cd4d1f74b.webp
+?? public/media/agero-service-brand-960.0b2b8a9edb2f.webp
+?? public/media/agero-service-logo-1024.c1bbcb948f07.avif
+?? public/media/agero-service-logo-384.39ddfb261540.avif
+?? public/media/agero-service-logo-640.e96d30554134.avif
+?? public/media/agero-service-logo-960.9caa60a11fc7.avif
+?? public/media/agero-service-web-1024.f17910ff6221.avif
+?? public/media/agero-service-web-384.5ab9ecdcec44.avif
+?? public/media/agero-service-web-640.90c9ed350d38.avif
+?? public/media/agero-service-web-960.ded6f7c95a0e.avif
+?? public/media/agero-sparkle-19.32a221f4efc8.webp
+?? public/media/agero-stackray-desktop-1280.15c0aedeb6a8.webp
+?? public/media/agero-stackray-desktop-384.4426957c920b.webp
+?? public/media/agero-stackray-desktop-640.c32a157282c4.webp
+?? public/media/agero-stackray-desktop-960.cd9ac19537a8.webp
+?? public/media/agero-texture-384.5423a56a640e.avif
+?? public/media/agero-texture-640.8657a5cda406.avif
+?? public/media/agero-texture-801.c94d94622967.avif
+?? public/media/agero-work-2-384.b5af18fba019.avif
+?? public/media/agero-work-2-640.8869757a9b16.avif
+?? public/media/agero-work-2-819.065a8a7c926c.avif
+?? public/media/agero-work-3-384.7571a599381c.avif
+?? public/media/agero-work-3-640.f32229d19b5a.avif
+?? public/media/agero-work-3-819.7771be96f2c2.avif
+?? public/media/agero-work-bg-1-1280.cb929fb02ab8.avif
+?? public/media/agero-work-bg-1-1600.bfdea79a0dbd.avif
+?? public/media/agero-work-bg-1-2048.fd69188cbaef.avif
+?? public/media/agero-work-bg-1-384.3f33213c4e92.avif
+?? public/media/agero-work-bg-1-640.97b926b408fb.avif
+?? public/media/agero-work-bg-1-960.a60dca343cfc.avif
+?? public/media/agero-work-bg-2-1280.340e5fd7bcae.avif
+?? public/media/agero-work-bg-2-1600.9778cbe63a91.avif
+?? public/media/agero-work-bg-2-2048.5fedc444be89.avif
+?? public/media/agero-work-bg-2-384.5b593dffcb4f.avif
+?? public/media/agero-work-bg-2-640.592b45f64dfb.avif
+?? public/media/agero-work-bg-2-960.9336df24f95f.avif
+?? public/media/agero-work-bg-3-1280.e95fbf129955.avif
+?? public/media/agero-work-bg-3-1600.c8727cfe2f7c.avif
+?? public/media/agero-work-bg-3-2048.f99c64b2739f.avif
+?? public/media/agero-work-bg-3-384.b9d65c37bfbd.avif
+?? public/media/agero-work-bg-3-640.784fa29c1c5f.avif
+?? public/media/agero-work-bg-3-960.5705d5287252.avif
+?? public/media/helpmegrow-audience-conversations-1280.55bac29004e8.webp
+?? public/media/helpmegrow-audience-conversations-1600.ab8798d39a80.webp
+?? public/media/helpmegrow-audience-conversations-2048.a0f3ddb659dc.webp
+?? public/media/helpmegrow-audience-conversations-2560.9b7bb592bfe1.webp
+?? public/media/helpmegrow-audience-conversations-384.b319148898bf.webp
+?? public/media/helpmegrow-audience-conversations-640.7f944c1bb8ea.webp
+?? public/media/helpmegrow-audience-conversations-960.0d98beda341c.webp
+?? public/media/helpmegrow-audience-performance-1280.010cc437b61b.webp
+?? public/media/helpmegrow-audience-performance-1396.ec6f42c4ee47.webp
+?? public/media/helpmegrow-audience-performance-384.20a72a2e8d50.webp
+?? public/media/helpmegrow-audience-performance-640.e18ff4bc139f.webp
+?? public/media/helpmegrow-audience-performance-960.3ebf5f607d25.webp
+?? public/media/helpmegrow-audience-planning-1223.02fdb80b65db.webp
+?? public/media/helpmegrow-audience-planning-384.a8c2a2fd7d11.webp
+?? public/media/helpmegrow-audience-planning-640.8a283b8200f0.webp
+?? public/media/helpmegrow-audience-planning-960.6938b1d3ec00.webp
+?? public/media/helpmegrow-conversion-early-access-1280.de492ab5d12c.webp
+?? public/media/helpmegrow-conversion-early-access-1600.3ab9c61f9e4c.webp
+?? public/media/helpmegrow-conversion-early-access-2048.afaf844a94f5.webp
+?? public/media/helpmegrow-conversion-early-access-2052.e4a76a15ffa9.webp
+?? public/media/helpmegrow-conversion-early-access-384.cd65a094d23b.webp
+?? public/media/helpmegrow-conversion-early-access-640.3cf97289b03a.webp
+?? public/media/helpmegrow-conversion-early-access-960.b503b941349b.webp
+?? public/media/helpmegrow-hero-1280.beafa9a3ee07.webp
+?? public/media/helpmegrow-hero-1600.c57629c1d4da.webp
+?? public/media/helpmegrow-hero-2048.f792f8bc7663.webp
+?? public/media/helpmegrow-hero-2560.304c71b71d1b.webp
+?? public/media/helpmegrow-hero-384.19233678b90c.webp
+?? public/media/helpmegrow-hero-640.c869515f9559.webp
+?? public/media/helpmegrow-hero-960.7da5daa021cf.webp
+?? public/media/helpmegrow-product-answer-1280.76d6baf8e07a.webp
+?? public/media/helpmegrow-product-answer-1600.16b73b226b18.webp
+?? public/media/helpmegrow-product-answer-1625.626532d74c7c.webp
+?? public/media/helpmegrow-product-answer-384.654fca4b64b7.webp
+?? public/media/helpmegrow-product-answer-640.8f5ef7aa4077.webp
+?? public/media/helpmegrow-product-answer-960.17c5f68c7010.webp
+?? public/media/helpmegrow-product-engage-1280.143b936d7c97.webp
+?? public/media/helpmegrow-product-engage-1600.21068330b076.webp
+?? public/media/helpmegrow-product-engage-2048.8431fb0380fb.webp
+?? public/media/helpmegrow-product-engage-2448.005a35ce423e.webp
+?? public/media/helpmegrow-product-engage-384.fe42f2aa5c20.webp
+?? public/media/helpmegrow-product-engage-640.aeaa49146870.webp
+?? public/media/helpmegrow-product-engage-960.e73909f49e74.webp
+?? public/media/helpmegrow-product-plan-384.4f5828f15679.webp
+?? public/media/helpmegrow-product-plan-640.9970152667b2.webp
+?? public/media/helpmegrow-product-plan-710.bc98c94da28f.webp
+?? public/media/helpmegrow-product-understand-1280.f51adbfe69de.webp
+?? public/media/helpmegrow-product-understand-1396.490d4b501506.webp
+?? public/media/helpmegrow-product-understand-384.076ac819ecb4.webp
+?? public/media/helpmegrow-product-understand-640.fd6083ea03b0.webp
+?? public/media/helpmegrow-product-understand-960.a22170e51150.webp
+?? public/media/hippo-logo-144.9538a5b54663.webp
+?? public/media/hippo-logo-400.ea45a122be63.webp
+?? public/media/hippo-logo-48.ccb0b75537ce.webp
+?? public/media/hippo-logo-512.dd0549f2c98a.webp
+?? public/media/hippo-logo-96.63b002efe251.webp
+?? public/media/quillo-explainer-poster-1280.3a6818b25fef.webp
+?? public/media/quillo-explainer-poster-1440.adff514cd1ad.webp
+?? public/media/quillo-explainer-poster-384.81131f9aad47.webp
+?? public/media/quillo-explainer-poster-640.47d1fe24c92d.webp
+?? public/media/quillo-explainer-poster-960.9979cf69b7b3.webp
+?? public/media/quillo-landing-conversion-1280.4264f2cda639.webp
+?? public/media/quillo-landing-conversion-1600.b140191b7740.webp
+?? public/media/quillo-landing-conversion-1980.1d9e0112341d.webp
+?? public/media/quillo-landing-conversion-384.fb3e455cf1e8.webp
+?? public/media/quillo-landing-conversion-640.2c1bedf369b2.webp
+?? public/media/quillo-landing-conversion-960.be7b25bc84a8.webp
+?? public/media/quillo-landing-differentiation-1280.e28633db1e17.webp
+?? public/media/quillo-landing-differentiation-1600.b7b1f341572e.webp
+?? public/media/quillo-landing-differentiation-1980.6f412d6bba3a.webp
+?? public/media/quillo-landing-differentiation-384.b44e14cb6998.webp
+?? public/media/quillo-landing-differentiation-640.330b45cf212d.webp
+?? public/media/quillo-landing-differentiation-960.01597f1176c0.webp
+?? public/media/quillo-landing-faq-1280.556f23daa5fb.webp
+?? public/media/quillo-landing-faq-1600.5d9b4834abd7.webp
+?? public/media/quillo-landing-faq-1980.7bff4d1a2089.webp
+?? public/media/quillo-landing-faq-384.1f33c4106065.webp
+?? public/media/quillo-landing-faq-640.4d1622a16b91.webp
+?? public/media/quillo-landing-faq-960.d1140a966b8b.webp
+?? public/media/quillo-landing-hero-1280.6f2c6fa4f632.webp
+?? public/media/quillo-landing-hero-1600.6a82ee81dfdb.webp
+?? public/media/quillo-landing-hero-1980.5bed1cb3677a.webp
+?? public/media/quillo-landing-hero-384.8bfd4c33a8b8.webp
+?? public/media/quillo-landing-hero-640.0730f07bc4b6.webp
+?? public/media/quillo-landing-hero-960.3dba57a424d5.webp
+?? public/media/quillo-landing-how-it-works-1280.87c54055dc11.webp
+?? public/media/quillo-landing-how-it-works-1600.346b7733e135.webp
+?? public/media/quillo-landing-how-it-works-1980.63321bd29c5a.webp
+?? public/media/quillo-landing-how-it-works-384.ead3c53b5b60.webp
+?? public/media/quillo-landing-how-it-works-640.10defe2561dd.webp
+?? public/media/quillo-landing-how-it-works-960.ac6c4786271b.webp
+?? public/media/quillo-landing-preview-1280.51b9fe5b8587.webp
+?? public/media/quillo-landing-preview-1600.c89ac2715dba.webp
+?? public/media/quillo-landing-preview-1980.bbcbb9fad5e2.webp
+?? public/media/quillo-landing-preview-384.6e2c481b30d8.webp
+?? public/media/quillo-landing-preview-640.0f47ec9d0157.webp
+?? public/media/quillo-landing-preview-960.8181201222ad.webp
+?? public/media/quillo-landing-problem-1280.42380194db96.webp
+?? public/media/quillo-landing-problem-1600.d14ec77b393c.webp
+?? public/media/quillo-landing-problem-1980.0dc45f744221.webp
+?? public/media/quillo-landing-problem-384.51c404dfbe79.webp
+?? public/media/quillo-landing-problem-640.299f88445a6a.webp
+?? public/media/quillo-landing-problem-960.93d5e8e71ed2.webp
+?? public/media/quillo-landing-rigor-1280.f1b93c8dd0b9.webp
+?? public/media/quillo-landing-rigor-1600.6e3d39404f6d.webp
+?? public/media/quillo-landing-rigor-1980.026e73acfc40.webp
+?? public/media/quillo-landing-rigor-384.599987c09b3f.webp
+?? public/media/quillo-landing-rigor-640.304e661ba18e.webp
+?? public/media/quillo-landing-rigor-960.74835cbcbf0d.webp
+?? public/media/quillo-landing-why-now-1280.1dce5b67ce27.webp
+?? public/media/quillo-landing-why-now-1600.c1a5abfc98ed.webp
+?? public/media/quillo-landing-why-now-1980.a85ed9717b5a.webp
+?? public/media/quillo-landing-why-now-384.e677fc049607.webp
+?? public/media/quillo-landing-why-now-640.aa121a45ce18.webp
+?? public/media/quillo-landing-why-now-960.ecf4ad5ace4a.webp
+?? public/media/stackray-evidence-1280.86fc6aad0591.webp
+?? public/media/stackray-evidence-1440.9ca11ebea43b.webp
+?? public/media/stackray-evidence-384.311ab3021eb2.webp
+?? public/media/stackray-evidence-640.b783b2196174.webp
+?? public/media/stackray-evidence-960.80809b0e771f.webp
+?? public/media/stackray-hero-1280.7de9fc1d427f.webp
+?? public/media/stackray-hero-1440.0e951e6f592e.webp
+?? public/media/stackray-hero-384.e4d0601bef56.webp
+?? public/media/stackray-hero-640.bdbfc41d2b74.webp
+?? public/media/stackray-hero-960.99a9cb8d8a72.webp
+?? public/media/stackray-receipt-384.6f444f069cc9.webp
+?? public/media/stackray-receipt-510.96c00a7bf526.webp
+?? public/media/stackray-security-1280.01861a6ed61a.webp
+?? public/media/stackray-security-1440.f8817dc6d6fa.webp
+?? public/media/stackray-security-384.af1c130471f5.webp
+?? public/media/stackray-security-640.be15cafc43fb.webp
+?? public/media/stackray-security-960.aad2ad74fff0.webp
+?? public/media/stackray-waitlist-1216.e3e1d7d41ebf.webp
+?? public/media/stackray-waitlist-384.62c5d2817419.webp
+?? public/media/stackray-waitlist-640.51f5b957c240.webp
+?? public/media/stackray-waitlist-960.5eda2282c2a4.webp
+?? scripts/optimize-images.mjs
+?? scripts/performance/capture.mjs
+?? scripts/performance/interactions.mjs
+?? scripts/performance/regression.mjs
+?? scripts/performance/serve.mjs
+?? scripts/subset-fonts.py
+?? tests/analytics-client.test.mjs
+?? vercel.json
