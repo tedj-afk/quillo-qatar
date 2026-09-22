@@ -4,7 +4,7 @@
 .q-title-line { display: block; overflow: clip; padding: .08em .06em .12em; margin: -.08em -.06em -.12em; }
 .q-title-line > span { display: block; transform-origin: 0 100%; }
 
-/* The headline is a place to play, not a loading sequence. */
+/* Scroll motion and play live on separate layers from the hero entrance. */
 .q-hero-composition { padding-top: 45px; padding-bottom: 67px; }
 .q-hero-type-row { display: block; }
 .q-scroll-type { transform-origin: 50% 75%; }

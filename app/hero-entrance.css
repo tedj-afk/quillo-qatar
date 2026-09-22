@@ -1,0 +1,81 @@
+/* One restrained entrance from first paint. Every movement eases directly to rest.
+   Separate wrappers preserve the existing scroll, drag, and hover interactions. */
+.q-hero-piece, .q-launch-arrival { display: inline-block; }
+.q-launch-arrival { transform-origin: 0 100%; }
+.q-hero-action { width: fit-content; }
+.q-hero-index { position: relative; border-top-color: transparent; }
+.q-hero-index::before { content: ""; position: absolute; top: -1px; left: 0; right: 0; height: 1px; background: var(--q-line); transform-origin: 0 50%; }
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  .q-hero [data-hero-enter] {
+    animation-duration: 850ms;
+    animation-timing-function: cubic-bezier(.22, 1, .36, 1);
+    animation-delay: var(--q-enter-delay, 0ms);
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+  }
+  .q-hero [data-hero-enter="signal"] { animation-name: q-hero-fade; animation-duration: 450ms; }
+  .q-hero [data-hero-enter="eyebrow"] { animation-name: q-hero-wipe; --q-enter-delay: 50ms; }
+  .q-hero [data-hero-enter="location"] { animation-name: q-hero-wipe; --q-enter-delay: 110ms; }
+  .q-hero [data-hero-enter="your"] { animation-name: q-hero-type; --q-enter-delay: 100ms; }
+  .q-hero [data-hero-enter="digital"] { animation-name: q-hero-type; --q-enter-delay: 175ms; }
+  .q-hero [data-hero-enter="product"] { animation-name: q-hero-type; --q-enter-delay: 250ms; }
+  .q-hero [data-hero-enter="outline"] { animation-name: q-hero-outline; --q-enter-delay: 335ms; }
+  .q-hero [data-hero-enter="idea"] { animation-name: q-hero-type; --q-enter-delay: 400ms; }
+  .q-hero [data-hero-enter="to"] { animation-name: q-hero-type; --q-enter-delay: 445ms; }
+  .q-hero [data-hero-enter="sticker"] { animation-name: q-hero-sticker; --q-enter-delay: 530ms; animation-duration: 950ms; }
+  .q-hero [data-hero-enter="seal"] { animation-name: q-hero-seal; --q-enter-delay: 430ms; animation-duration: 1000ms; }
+  .q-hero [data-hero-enter="hint"] { animation-name: q-hero-hint; --q-enter-delay: 850ms; animation-duration: 650ms; }
+  .q-hero [data-hero-enter="description"] { animation-name: q-hero-copy; --q-enter-delay: 650ms; }
+  .q-hero [data-hero-enter="action"] { animation-name: q-hero-rise; --q-enter-delay: 760ms; }
+  .q-hero [data-hero-enter="scroll-disc"] { animation-name: q-hero-rise; --q-enter-delay: 740ms; }
+  .q-hero [data-hero-enter="scroll-caption"] { animation-name: q-hero-wipe; --q-enter-delay: 800ms; }
+  .q-hero-index::before { animation: q-hero-rule 850ms cubic-bezier(.76, 0, .24, 1) 800ms backwards; }
+  .q-hero [data-hero-enter="index-left"] { animation-name: q-hero-wipe; --q-enter-delay: 900ms; }
+  .q-hero [data-hero-enter="index-right"] { animation-name: q-hero-wipe; --q-enter-delay: 960ms; }
+
+  /* Stay settled after keyboard focus, including when focus leaves the hero. */
+  .q-hero[data-hero-skip] [data-hero-enter],
+  .q-hero[data-hero-skip] .q-hero-index::before { animation: none; }
+}
+
+@keyframes q-hero-type {
+  from { transform: translate3d(0, .22em, 0); clip-path: inset(0 0 100% 0); }
+  to { transform: none; clip-path: inset(-8% -6% -20% -6%); }
+}
+@keyframes q-hero-outline {
+  from { transform: translateX(.1em); clip-path: inset(0 100% -20% 0); }
+  to { transform: none; clip-path: inset(-8% -6% -20% -6%); }
+}
+@keyframes q-hero-sticker {
+  from { opacity: 0; transform: translate3d(4%, 12%, 0) rotate(2deg); clip-path: inset(-30% 100% -30% -10%); }
+  to { opacity: 1; transform: none; clip-path: inset(-30% -10% -30% -10%); }
+}
+@keyframes q-hero-seal {
+  from { opacity: 0; transform: rotate(-16deg); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes q-hero-rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes q-hero-copy {
+  from { clip-path: inset(0 0 100% 0); transform: translateY(10px); }
+  to { clip-path: inset(0 0 0 0); transform: none; }
+}
+@keyframes q-hero-wipe {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+@keyframes q-hero-hint {
+  from { opacity: 0; clip-path: inset(0 100% 0 0); }
+  to { opacity: 1; clip-path: inset(0 0 0 0); }
+}
+@keyframes q-hero-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes q-hero-rule {
+  from { transform: scaleX(0); }
+  to { transform: none; }
+}

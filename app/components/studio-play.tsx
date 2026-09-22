@@ -36,6 +36,7 @@ export function LaunchSticker() {
   }
 
   return <span className="q-sticker-anchor">
+    <span className="q-launch-arrival" data-hero-enter="sticker">
     <m.button type="button" className="q-launch-sticker" aria-label="Toss the launch sticker" title="Drag it or press to give it a toss"
       drag={!reduced} dragMomentum={false} dragElastic={.15} dragConstraints={{ left: -70, right: 70, top: -60, bottom: 45 }}
       style={{ x, y, rotate: rotation }} onPointerDown={() => { dragged.current = false; }}
@@ -46,13 +47,14 @@ export function LaunchSticker() {
       <span>launch.</span>
       <span className="q-sticker-notch" aria-hidden="true" />
     </m.button>
-    <span className="q-sticker-hint" aria-hidden="true">{played ? "THAT’S THE SPIRIT. ↗" : "GO ON. GIVE IT A TOSS. ↗"}</span>
+    </span>
+    <span className="q-sticker-hint" data-hero-enter="hint" aria-hidden="true">{played ? "THAT’S THE SPIRIT. ↗" : "GO ON. GIVE IT A TOSS. ↗"}</span>
   </span>;
 }
 
 export function ElasticWord({ children }: { children: string }) {
   const reduced = useReducedMotion();
-  return <span className="q-elastic-word" aria-label={children}>{[...children].map((letter, index) => <m.span key={index} aria-hidden="true"
+  return <span className="q-elastic-word" data-hero-enter="digital" aria-label={children}>{[...children].map((letter, index) => <m.span key={index} aria-hidden="true"
     whileHover={reduced ? {} : { y: -16, rotate: index % 2 ? 12 : -12, scaleY: 1.18 }}
     transition={{ type: "spring", stiffness: 450, damping: 10 }}
     >{letter}</m.span>)}</span>;
@@ -62,7 +64,7 @@ export function StudioSeal() {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
   const rotate = useTransform(scrollYProgress, [0, 1], [-45, 135]);
-  return <div className="q-studio-seal" ref={ref} aria-hidden="true">
+  return <div className="q-studio-seal" ref={ref} data-hero-enter="seal" aria-hidden="true">
     <m.svg viewBox="0 0 160 160" style={{ rotate }}>
       <defs><path id="q-seal-orbit" d="M80,80 m-62,0 a62,62 0 1,1 124,0 a62,62 0 1,1 -124,0" /></defs>
       <text><textPath href="#q-seal-orbit" textLength="389">SMALL TEAM. BIG AMBITION. ALL THE WAY. </textPath></text>

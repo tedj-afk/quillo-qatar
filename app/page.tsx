@@ -34,18 +34,20 @@ function ProjectLink({ children, className = "", location = "page" }: { children
   return <a href="#contact" className={`q-button ${className}`} data-analytics-location={location}>{children}<Arrow /></a>;
 }
 function Hero() {
-  return <section className="q-hero q-wrap" id="intro" aria-labelledby="hero-title">
-    <div className="q-hero-eyebrow"><p><span className="q-live-dot" />Independent minds. Complete products.</p><span>FOR QATAR. FOR WHAT’S NEXT.</span></div>
+  const [entranceSkipped, setEntranceSkipped] = useState(false);
+  return <section className="q-hero q-wrap" id="intro" aria-labelledby="hero-title" data-hero-skip={entranceSkipped || undefined}
+    onFocusCapture={event => { if (event.target.matches(":focus-visible")) setEntranceSkipped(true); }}>
+    <div className="q-hero-eyebrow"><p><span className="q-live-dot" data-hero-enter="signal" /><span data-hero-enter="eyebrow">Independent minds. Complete products.</span></p><span data-hero-enter="location">FOR QATAR. FOR WHAT’S NEXT.</span></div>
     <div className="q-hero-composition">
       <ScrollHeadline>{[
-        <>Your <ElasticWord>digital</ElasticWord></>,
-        <>product, <span className="q-outline">from</span></>,
-        <><span>idea to</span><LaunchSticker /></>,
+        <><span className="q-hero-piece" data-hero-enter="your">Your</span>{" "}<ElasticWord>digital</ElasticWord></>,
+        <><span className="q-hero-piece" data-hero-enter="product">product,</span>{" "}<span className="q-outline q-hero-piece" data-hero-enter="outline">from</span></>,
+        <><span><span className="q-hero-piece" data-hero-enter="idea">idea</span>{" "}<span className="q-hero-piece" data-hero-enter="to">to</span></span><LaunchSticker /></>,
       ]}</ScrollHeadline>
       <StudioSeal />
     </div>
-    <div className="q-hero-bottom"><a className="q-scroll-link" href="#shipments"><span className="q-circle"><Arrow /></span>SCROLL TO SEE<br />WHAT’S POSSIBLE</a><div><p>We help startups and businesses in Qatar turn ideas into web and mobile products—with strategy, design, development, and launch handled by one team.</p><ProjectLink location="hero">Let’s build your product</ProjectLink></div></div>
-    <div className="q-hero-index"><span>STRATEGY / DESIGN / DEVELOPMENT / BEYOND</span><span>01 — THE START OF SOMETHING</span></div>
+    <div className="q-hero-bottom"><a className="q-scroll-link" href="#shipments"><span className="q-circle" data-hero-enter="scroll-disc"><Arrow /></span><span data-hero-enter="scroll-caption">SCROLL TO SEE<br />WHAT’S POSSIBLE</span></a><div><p data-hero-enter="description">We help startups and businesses in Qatar turn ideas into web and mobile products—with strategy, design, development, and launch handled by one team.</p><div className="q-hero-action" data-hero-enter="action"><ProjectLink location="hero">Let’s build your product</ProjectLink></div></div></div>
+    <div className="q-hero-index"><span data-hero-enter="index-left">STRATEGY / DESIGN / DEVELOPMENT / BEYOND</span><span data-hero-enter="index-right">01 — THE START OF SOMETHING</span></div>
   </section>;
 }
 function ProjectArtwork({ project, index }: { project: (typeof selectedProjects)[number]; index: number }) {

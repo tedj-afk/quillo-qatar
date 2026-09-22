@@ -5,6 +5,7 @@ import "./globals.css";
 import "./generated-media.css";
 import "./quillo.css";
 import "./motion.css";
+import "./hero-entrance.css";
 import { SiteAnalytics } from "./components/site-analytics";
 import { siteUrl, siteName, siteDescription, isPublicSite } from "@/lib/site";
 
