@@ -43,13 +43,13 @@ export async function generateMetadata({ params }: CaseStudyPageProps): Promise<
       ...(siteUrl ? { url: `${siteUrl}${url}` } : {}),
       siteName: "Quillo Qatar",
       type: "article",
-      ...(siteUrl ? { images: [{ url: "/og.png", width: 1200, height: 630, type: "image/png", alt: "Quillo Qatar — Your digital product, from idea to launch." }] } : {}),
+      ...(siteUrl ? { images: [{ url: "/og.png", width: 1200, height: 630, type: "image/png", alt: "Quillo Qatar — Stop guessing what to build next." }] } : {}),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      ...(siteUrl ? { images: [{ url: "/og.png", alt: "Quillo Qatar — Your digital product, from idea to launch." }] } : {}),
+      ...(siteUrl ? { images: [{ url: "/og.png", alt: "Quillo Qatar — Stop guessing what to build next." }] } : {}),
     },
   };
 }

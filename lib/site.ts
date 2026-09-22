@@ -11,4 +11,4 @@ export const siteUrl = productionOrigin(configuredUrl);
 // A domain alone never makes an unfinished preview indexable.
 export const isPublicSite = Boolean(siteUrl && process.env.NEXT_PUBLIC_LAUNCH_READY === "true");
 export const siteName = "Quillo Qatar";
-export const siteDescription = "We help startups and businesses in Qatar turn ideas into web and mobile products—with strategy, design, development, and launch handled by one team.";
+export const siteDescription = "Product strategy, UX, and interface design in one team. Quillo helps founders and businesses in Qatar shape web and mobile experiences ready for development.";

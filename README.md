@@ -1,6 +1,6 @@
 # Quillo Qatar
 
-An independent, English-first product-studio website for startups and businesses in Qatar. This repository was imported from the Hippo working checkout on 22 September 2026. It has its own Git history and is maintained at [tedj-afk/quillo-qatar](https://github.com/tedj-afk/quillo-qatar). No hosted deployment is configured.
+An independent, English-first product design studio website for startups and businesses in Qatar. This repository was imported from the Hippo working checkout on 22 September 2026. It has its own Git history and is maintained at [tedj-afk/quillo-qatar](https://github.com/tedj-afk/quillo-qatar). No hosted deployment is configured.
 
 ## Run locally
 
@@ -34,7 +34,7 @@ On a nearly full disk, use `QUILLO_LOW_DISK=true npm run build` to disable webpa
 
 This version is a local review, not a public launch:
 
-- Prices are visibly provisional: discovery QAR 5,000, scoped MVP QAR 25,000, and support QAR 2,500/month. A scoped MVP does not include every platform by default.
+- Prices are visibly provisional: product discovery QAR 5,000, MVP Design QAR 25,000, and ongoing design support QAR 2,500/month. MVP Design delivers a tested prototype, interface designs, and developer handoff for an agreed core experience. Development is scoped separately with the client's team or development partner; platforms are scoped individually.
 - The existing Cal.com calendar is retained temporarily. The inline calendar is loaded only when opened, and a direct booking link is available.
 - No production domain is assumed. Metadata omits canonical URLs until a domain is configured.
 - Search indexing and production analytics are disabled by default. Analytics events log locally to verify interactions and QAR amounts.

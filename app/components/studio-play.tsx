@@ -37,14 +37,14 @@ export function LaunchSticker() {
 
   return <span className="q-sticker-anchor">
     <span className="q-launch-arrival" data-hero-enter="sticker">
-    <m.button type="button" className="q-launch-sticker" aria-label="Toss the launch sticker" title="Drag it or press to give it a toss"
+    <m.button type="button" className="q-launch-sticker" aria-label="Toss the next step sticker" title="Drag it or press to give it a toss"
       drag={!reduced} dragMomentum={false} dragElastic={.15} dragConstraints={{ left: -70, right: 70, top: -60, bottom: 45 }}
       style={{ x, y, rotate: rotation }} onPointerDown={() => { dragged.current = false; }}
       onDragStart={() => { dragged.current = true; stop(); }} onDrag={(_, info) => rotation.set(-3 + info.offset.x * .12)} onDragEnd={land}
       onClick={event => { if (event.detail === 0 || !dragged.current) toss(); }}
       whileDrag={{ scale: 1.08, cursor: "grabbing" }}>
-      <span className="q-sticker-meta" aria-hidden="true"><span>IDEA → REALITY</span><span>№ 001</span></span>
-      <span>launch.</span>
+      <span className="q-sticker-meta" aria-hidden="true"><span>FIND YOUR NEXT MOVE</span><span>№ 001</span></span>
+      <span>next.</span>
       <span className="q-sticker-notch" aria-hidden="true" />
     </m.button>
     </span>
@@ -54,7 +54,7 @@ export function LaunchSticker() {
 
 export function ElasticWord({ children }: { children: string }) {
   const reduced = useReducedMotion();
-  return <span className="q-elastic-word" data-hero-enter="digital" aria-label={children}>{[...children].map((letter, index) => <m.span key={index} aria-hidden="true"
+  return <span className="q-elastic-word" data-hero-enter="word" aria-label={children}>{[...children].map((letter, index) => <m.span key={index} aria-hidden="true"
     whileHover={reduced ? {} : { y: -16, rotate: index % 2 ? 12 : -12, scaleY: 1.18 }}
     transition={{ type: "spring", stiffness: 450, damping: 10 }}
     >{letter}</m.span>)}</span>;

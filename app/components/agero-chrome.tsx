@@ -46,7 +46,7 @@ export function Footer({ homePath = "" }: { homePath?: string }) {
     <div className="q-wrap">
       <div className="q-footer-top" data-reveal="rule"><p>Good things start<br />with a conversation.</p><a href={bookingUrl} target="_blank" rel="noopener noreferrer" className="q-footer-talk" data-analytics-location="footer">Let’s make<br />something matter.<Arrow /></a></div>
       <div className="q-footer-links"><a href={`${homePath}#shipments`}>Selected work</a><a href={`${homePath}#services`}>Our capabilities</a><a href={`${homePath}#faq`}>Your questions</a><a href={homePath || "#top"}>{homePath ? "Back to home" : "Back to top"}<Arrow /></a></div>
-      <div data-reveal="sheet" className="q-footer-wordmark" aria-label="Quillo Qatar"><span>Quillo.</span><small>QATAR<br />PRODUCT<br />STUDIO</small></div>
+      <div data-reveal="sheet" className="q-footer-wordmark" aria-label="Quillo Qatar"><span>Quillo.</span><small>QATAR<br />PRODUCT DESIGN<br />STUDIO</small></div>
       <div className="q-footer-meta"><span>© {new Date().getFullYear()} Quillo Qatar</span><span>Made for what’s next.</span><span>Qatar time{time ? ` / ${time}` : ""} · UTC+3</span></div>
     </div>
   </footer>;

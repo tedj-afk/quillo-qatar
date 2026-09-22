@@ -3,6 +3,7 @@
 .q-hero-piece, .q-launch-arrival { display: inline-block; }
 .q-launch-arrival { transform-origin: 0 100%; }
 .q-hero-action { width: fit-content; }
+.q-site .q-hero-cta-note { margin-top: 12px; font-size: 11px; line-height: 1.6; color: var(--q-muted); }
 .q-hero-index { position: relative; border-top-color: transparent; }
 .q-hero-index::before { content: ""; position: absolute; top: -1px; left: 0; right: 0; height: 1px; background: var(--q-line); transform-origin: 0 50%; }
 
@@ -17,12 +18,11 @@
   .q-hero [data-hero-enter="signal"] { animation-name: q-hero-fade; animation-duration: 450ms; }
   .q-hero [data-hero-enter="eyebrow"] { animation-name: q-hero-wipe; --q-enter-delay: 50ms; }
   .q-hero [data-hero-enter="location"] { animation-name: q-hero-wipe; --q-enter-delay: 110ms; }
-  .q-hero [data-hero-enter="your"] { animation-name: q-hero-type; --q-enter-delay: 100ms; }
-  .q-hero [data-hero-enter="digital"] { animation-name: q-hero-type; --q-enter-delay: 175ms; }
-  .q-hero [data-hero-enter="product"] { animation-name: q-hero-type; --q-enter-delay: 250ms; }
+  .q-hero [data-hero-enter="lead"] { animation-name: q-hero-type; --q-enter-delay: 100ms; }
+  .q-hero [data-hero-enter="word"] { animation-name: q-hero-type; --q-enter-delay: 175ms; }
+  .q-hero [data-hero-enter="bridge"] { animation-name: q-hero-type; --q-enter-delay: 250ms; }
   .q-hero [data-hero-enter="outline"] { animation-name: q-hero-outline; --q-enter-delay: 335ms; }
-  .q-hero [data-hero-enter="idea"] { animation-name: q-hero-type; --q-enter-delay: 400ms; }
-  .q-hero [data-hero-enter="to"] { animation-name: q-hero-type; --q-enter-delay: 445ms; }
+  .q-hero [data-hero-enter="verb"] { animation-name: q-hero-type; --q-enter-delay: 400ms; }
   .q-hero [data-hero-enter="sticker"] { animation-name: q-hero-sticker; --q-enter-delay: 530ms; animation-duration: 950ms; }
   .q-hero [data-hero-enter="seal"] { animation-name: q-hero-seal; --q-enter-delay: 430ms; animation-duration: 1000ms; }
   .q-hero [data-hero-enter="hint"] { animation-name: q-hero-hint; --q-enter-delay: 850ms; animation-duration: 650ms; }

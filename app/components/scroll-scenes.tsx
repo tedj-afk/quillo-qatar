@@ -14,12 +14,12 @@ function HeadlineStrip({ children, index, progress, velocity }: {
   return <m.span className={`q-hero-type-row q-scroll-type${index === 2 ? " q-hero-launch-row" : ""}`} style={{ x, rotate, skewX, scaleY }}>{children}</m.span>;
 }
 
-export function ScrollHeadline({ children }: { children: ReactNode[] }) {
+export function ScrollHeadline({ children, label }: { children: ReactNode[]; label: string }) {
   const ref = useRef<HTMLHeadingElement>(null);
   const { scrollYProgress, scrollY } = useScroll({ target: ref, offset: ["start 18%", "end start"] });
   const velocity = useVelocity(scrollY);
   const elasticVelocity = useSpring(velocity, { stiffness: 100, damping: 22, mass: .5 });
-  return <h1 ref={ref} id="hero-title" aria-label="Your digital product, from idea to launch.">
+  return <h1 ref={ref} id="hero-title" aria-label={label}>
     {children.map((line, index) => <HeadlineStrip key={index} index={index} progress={scrollYProgress} velocity={elasticVelocity}>{line}</HeadlineStrip>)}
   </h1>;
 }
