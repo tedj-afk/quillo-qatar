@@ -1,5 +1,5 @@
 {
-  "name": "shipped-by-hippo",
+  "name": "quillo-qatar",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,11 @@
     "lint": "tsc --noEmit",
     "prebuild": "node scripts/optimize-images.mjs",
     "predev": "node scripts/optimize-images.mjs",
-    "images:build": "node scripts/optimize-images.mjs"
+    "images:build": "node scripts/optimize-images.mjs",
+    "test": "node tests/analytics-client.test.mjs && node tests/preview-config.test.mjs",
+    "preview": "node scripts/performance/serve.mjs out 4175",
+    "brand:build": "node scripts/build-brand.mjs",
+    "check:preview": "node scripts/check-preview.mjs"
   },
   "dependencies": {
     "@calcom/embed-react": "^1.5.3",

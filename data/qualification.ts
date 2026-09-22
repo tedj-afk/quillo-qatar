@@ -1,36 +1,14 @@
 export const qualificationRows = [
-  "Your product is better than your website makes it look.",
-  "People get it after the demo, not before.",
-  "You are launching and cannot spend three months managing an agency.",
-  "Your homepage is still three pivots behind.",
-  "The positioning changed. The website did not.",
-  "Your category is starting to look interchangeable.",
-  "You have said 'we need to fix the website' for six months.",
+  "You see an opportunity, but need a clear product roadmap.",
+  "Your business runs on workarounds that could become one connected tool.",
+  "Your customers need a better web or mobile experience.",
+  "You want one team to take responsibility from discovery through launch.",
+  "You have a product in market and a clear ambition for its next release.",
 ];
 
 export const buyerQuestions = [
-  {
-    question: "WHAT IS THIS?",
-    answer: "If your hero makes someone decode clever marketing language, you've already made the sale harder.",
-    chip: "Clear offer",
-    tone: "yellow",
-  },
-  {
-    question: "IS THIS ACTUALLY FOR ME?",
-    answer: "Visitors should recognize themselves before they reach the second scroll.",
-    chip: "Recognize fast",
-    tone: "yellow",
-  },
-  {
-    question: "WHY SHOULD I CARE?",
-    answer: "Features are information. Outcomes create interest.",
-    chip: "Outcome first",
-    tone: "yellow",
-  },
-  {
-    question: "WHY SHOULD I BELIEVE YOU?",
-    answer: "Proof should arrive before skepticism does.",
-    chip: "Proof early",
-    tone: "yellow",
-  },
+  { question: "WHAT SHOULD WE BUILD?", answer: "Find the problem worth solving and the smallest useful first release.", chip: "Clear scope", tone: "lime" },
+  { question: "WHO IS IT FOR?", answer: "Design around the people who will actually use the product.", chip: "User needs", tone: "lime" },
+  { question: "HOW WILL IT WORK?", answer: "Connect the experience, the technology, and the operations behind it.", chip: "One product", tone: "lime" },
+  { question: "WHAT HAPPENS NEXT?", answer: "Launch with a clear handover and an agreed plan for improvement.", chip: "Beyond launch", tone: "lime" },
 ];

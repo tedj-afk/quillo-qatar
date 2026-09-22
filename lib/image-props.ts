@@ -8,3 +8,9 @@ export function imageProps(src: string, sizes = '100vw'): ImageAsset & { sizes?:
   const asset = assets[src];
   return asset ? { ...asset, sizes } : { src };
 }
+
+/** Use the largest generated image for full-size portfolio links. */
+export function fullSizeImage(src: string): string {
+  const asset = assets[src];
+  return asset?.srcSet?.split(',').pop()?.trim().split(/\s+/)[0] || asset?.src || src;
+}

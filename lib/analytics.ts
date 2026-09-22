@@ -1,7 +1,7 @@
 "use client";
 
 import { captureAnalytics } from "./analytics-client";
-import { isLocalPreview } from "./analytics-config";
+import { analyticsEnabled } from "./analytics-config";
 
 export type AnalyticsEvent =
   | "booking clicked" | "navigation clicked" | "case study clicked"
@@ -18,7 +18,7 @@ export type AnalyticsProperties = Record<string, boolean | number | string | nul
 
 export function captureLandingEvent(eventName: AnalyticsEvent, properties: AnalyticsProperties = {}) {
   if (typeof window === "undefined") return;
-  const preview = isLocalPreview(window.location.hostname);
+  const preview = !analyticsEnabled(window.location.hostname);
   const eventProperties = Object.fromEntries(Object.entries({
     ...properties,
     page: window.location.pathname.startsWith("/case-studies/") ? "case_study" : "landing",
@@ -32,7 +32,7 @@ export function captureLandingEvent(eventName: AnalyticsEvent, properties: Analy
   try {
     // Exercise the same events locally without adding test traffic to live reports.
     if (preview) {
-      console.info("[Hippo analytics] " + JSON.stringify({ event: eventName, properties: eventProperties }));
+      console.info("[Quillo analytics] " + JSON.stringify({ event: eventName, properties: eventProperties }));
       return;
     }
     const navigating = ["booking clicked", "case study clicked", "project website clicked", "navigation clicked", "case study image opened", "case study chapter clicked"].includes(eventName);

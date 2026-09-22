@@ -1,7 +1,7 @@
 import { startAnalytics } from './lib/analytics-client';
-import { isLocalPreview } from './lib/analytics-config';
+import { analyticsEnabled } from './lib/analytics-config';
 
-if (!isLocalPreview(window.location.hostname)) {
+if (analyticsEnabled(window.location.hostname)) {
   const schedule = () => {
     if ('requestIdleCallback' in window) window.requestIdleCallback(() => void startAnalytics(), { timeout: 1000 });
     else setTimeout(() => void startAnalytics(), 0);

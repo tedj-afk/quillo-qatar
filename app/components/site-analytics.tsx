@@ -18,7 +18,7 @@ export function observePageAnalytics(pathname: string) {
     const chapter = samePage && target.hash && anchor.closest('[aria-label="Case-study chapters"]');
     const plan = anchor.closest<HTMLElement>("[data-analytics-plan]");
     const location = anchor.dataset.analyticsLocation ||
-      (chapter ? "case_study_chapters" : anchor.closest("#ag-mobile-nav") ? "mobile_navigation" :
+      (chapter ? "case_study_chapters" : anchor.closest("#q-mobile-nav") ? "mobile_navigation" :
       anchor.closest("header") ? "header" : anchor.closest("footer") ? "footer" :
       anchor.closest("section[id]")?.id || (pathname.startsWith("/case-studies/") ? "case_study" : "page"));
     const properties: AnalyticsProperties = {
@@ -31,7 +31,8 @@ export function observePageAnalytics(pathname: string) {
     if (plan) {
       properties.plan = plan.dataset.analyticsPlan;
       properties.price = Number(plan.dataset.analyticsPrice);
-      properties.currency = "USD";
+      properties.currency = plan.dataset.analyticsCurrency || "QAR";
+      properties.billing_interval = plan.dataset.analyticsInterval;
     }
     if (target.origin === booking.origin && target.pathname.replace(/\/$/, "") === booking.pathname.replace(/\/$/, "")) {
       captureLandingEvent("booking clicked", properties);
@@ -55,12 +56,12 @@ export function observePageAnalytics(pathname: string) {
   document.addEventListener("auxclick", trackLink, true);
 
   const observed = new Map<Element, { event: AnalyticsEvent; properties: AnalyticsProperties }>();
-  document.querySelectorAll("main section[id], .ag-hero, .ag-footer").forEach(section => {
+  document.querySelectorAll("main section[id], .ag-hero, .q-hero, .ag-footer, .q-footer").forEach(section => {
     const heading = section.querySelector("h1, h2") || section.querySelector(".ag-footer-links") || section;
     observed.set(heading, { event: "section viewed", properties: { section: section.id || (section.matches(".ag-hero") ? "hero" : "footer") } });
   });
   document.querySelectorAll<HTMLElement>(".ag-price-amount[data-analytics-plan]").forEach(plan => {
-    observed.set(plan, { event: "plan viewed", properties: { section: "pricing", plan: plan.dataset.analyticsPlan, price: Number(plan.dataset.analyticsPrice), currency: "USD" } });
+    observed.set(plan, { event: "plan viewed", properties: { section: "pricing", plan: plan.dataset.analyticsPlan, price: Number(plan.dataset.analyticsPrice), currency: plan.dataset.analyticsCurrency || "QAR", billing_interval: plan.dataset.analyticsInterval } });
   });
   document.querySelectorAll<HTMLElement>("[data-analytics-project]").forEach(project => {
     observed.set(project, { event: "case study card viewed", properties: { location: project.dataset.analyticsLocation, project: project.dataset.analyticsProject } });

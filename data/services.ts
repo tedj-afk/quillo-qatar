@@ -1,52 +1,16 @@
 export type Service = {
-  eyebrow: string;
-  title: string;
-  price: string;
-  priceNote: string;
-  timeline: string;
-  audience: string;
-  includes: string[];
-  cta: string;
-  microcopy: string;
+  id: string; title: string; description: string; amount: number;
+  currency: "QAR"; interval: "project" | "month"; includes: string[];
 };
-
+/** Provisional starting prices for the local preview, not final quotations. */
 export const services: Service[] = [
-  {
-    eyebrow: "SERVICE 01",
-    title: "Landing Page Sprint",
-    price: "$3,000",
-    priceNote: "FIXED",
-    timeline: "~2 weeks",
-    audience: "For launches, campaigns, demand tests, and products that need a sharper first impression.",
-    includes: [
-      "Positioning + messaging",
-      "Page structure + conversion copy",
-      "Custom responsive design",
-      "Framer or Webflow build",
-      "Forms, analytics, QA, and launch",
-      "7 days post-launch support",
-    ],
-    cta: "Book a call",
-    microcopy: "One page. One tight sprint. Strategy to shipped.",
-  },
-  {
-    eyebrow: "SERVICE 02",
-    title: "Website Refresh",
-    price: "$5,000",
-    priceNote: "STANDARD SCOPE",
-    timeline: "~2 weeks for standard scope",
-    audience:
-      "For SaaS companies whose product changed while the website stayed behind.",
-    includes: [
-      "Existing website audit",
-      "Positioning + information architecture",
-      "Homepage plus up to 4 core pages",
-      "Responsive design system",
-      "Framer or Webflow, CMS where needed",
-      "Forms, analytics, QA, and launch",
-      "7 days post-launch support",
-    ],
-    cta: "Book a call",
-    microcopy: "Bigger scope. Same bias toward shipping.",
-  },
+  { id: "discovery", title: "Find the right first move.", description: "Product discovery", amount: 5000, currency: "QAR", interval: "project",
+    includes: ["Business goals & user needs", "Requirements & core journeys", "Prioritized scope & product roadmap"] },
+  { id: "mvp", title: "Make the idea real.", description: "Scoped MVP", amount: 25000, currency: "QAR", interval: "project",
+    includes: ["UX/UI for the agreed core experience", "Development, integrations & testing", "Launch support & product handover"] },
+  { id: "support", title: "Keep moving forward.", description: "Ongoing support", amount: 2500, currency: "QAR", interval: "month",
+    includes: ["Agreed maintenance & monitoring", "Prioritized fixes & improvements", "A clear monthly scope & review"] },
 ];
+export function formatPrice(amount: number) {
+  return new Intl.NumberFormat("en-QA", { maximumFractionDigits: 0 }).format(amount);
+}

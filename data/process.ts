@@ -1,38 +1,6 @@
-export type ProcessStep = {
-  day: string;
-  label: string;
-  title: string;
-  description: string;
-  deliverables: string[];
-};
-
-export const processSteps: ProcessStep[] = [
-  {
-    day: "01",
-    label: "Days 01-02",
-    title: "STRATEGY + SCOPE",
-    description: "We clarify the product, buyer, category, current site, and launch goal.",
-    deliverables: ["Product understanding", "Audience clarity", "Launch goal"],
-  },
-  {
-    day: "02",
-    label: "Days 03-05",
-    title: "POSITIONING + MESSAGING",
-    description: "We shape the story around what buyers need to understand, believe, and do.",
-    deliverables: ["Page story", "Buyer questions", "Conversion copy"],
-  },
-  {
-    day: "03",
-    label: "Days 06-09",
-    title: "DESIGN THE EXPERIENCE",
-    description: "The story becomes a visual system, responsive page, and key interactions.",
-    deliverables: ["Visual system", "Responsive page", "Interactions"],
-  },
-  {
-    day: "04",
-    label: "Days 10-14",
-    title: "BUILD, REFINE + SHIP",
-    description: "Build, QA, feedback, final polish, and launch.",
-    deliverables: ["Development", "Responsive QA", "~Day 14: Shipped"],
-  },
+export const processSteps = [
+  { label: "01", title: "Find the why.", description: "We get close to your business, your users, and the problem worth solving.", deliverable: "A clear brief & prioritized scope" },
+  { label: "02", title: "Shape the how.", description: "User journeys become prototypes. We test the experience before committing to the build.", deliverable: "UX/UI & a working prototype" },
+  { label: "03", title: "Build the thing.", description: "We develop, connect, and test the product in focused milestones you can see and use.", deliverable: "A tested web or mobile product" },
+  { label: "04", title: "Go live. Go further.", description: "Deployment, app-store submission support, and handover. Then a plan for what comes next.", deliverable: "Launch, ownership & ongoing improvement" },
 ];

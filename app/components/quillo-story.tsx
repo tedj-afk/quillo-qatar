@@ -3,7 +3,7 @@
 import * as m from "motion/react-m";
 
 import { ResponsiveImage } from "@/app/components/responsive-image";
-import { imageProps } from "@/lib/image-props";
+import { imageProps, fullSizeImage } from "@/lib/image-props";
 
 import { useRef, useState, type ReactNode } from "react";
 import { useReducedMotion } from "motion/react";
@@ -61,6 +61,7 @@ function QuilloExplainer() {
 export function QuilloHero() {
   const reduce = useReducedMotion();
   return <div className="ql-opening"><Header homePath="/" />
+    <p className="q-case-note">Portfolio project: Quillo, the AI learning platform. This case study covers its landing-page strategy and design; it is distinct from Quillo Qatar, the studio.</p>
     <section className="ql-hero ag-wrap" id="project" aria-labelledby="case-title">
       <p className="ag-label">(Quillo / AI learning landing page)</p>
       <m.h1 id="case-title" initial={reduce ? false : { opacity: 0, y: 20, filter: "blur(6px)" }} animate={{ opacity: 1, y: 0, filter: "blur(0px)" }} transition={{ duration: 0.85, ease }}>A reliable path through<br /> <em>unfamiliar territory.</em></m.h1>
@@ -110,7 +111,7 @@ function Opening() { return <section className="ql-section ag-wrap" id="experien
 function LearningLoop() { return <section className="ql-section ql-bordered ag-wrap" id="learning-loop">
   <Label number="07">Explaining the product</Label><Title>Three capabilities.<br /> <em>One continuous learning loop.</em></Title>
   <div className="ql-loop">{[["01", "Map the territory.", "Start with the destination and the learner’s existing knowledge. Work backward through prerequisites and dependencies to find the shortest honest route."], ["02", "Teach, not just answer.", "Explain concepts in context, check whether they landed, and return to a missing foundation when the learner needs it."], ["03", "Keep the learner moving.", "Short sessions and a visible learning thread make returning easier. Always show the next meaningful step."]].map(([number, title, body]) => <Reveal className="ql-loop-step" key={number}><span>{number}</span><h3>{title}</h3><p>{body}</p></Reveal>)}</div>
-  <figure className="ql-figure ql-path"><a href="/quillo/landing-how-it-works.webp" target="_blank" rel="noopener noreferrer" aria-label="View the full-size How it works landing-page section"><Screen image="landing-how-it-works" alt="Quillo landing-page How it works section: Three things, one loop, followed by three alternating rows of explanatory copy and framed visuals" width={1980} height={3636} /></a><figcaption>The landing page’s “How it works” section alternates copy and framed visuals to explain the three-part loop. Select the image to view it full size.</figcaption></figure>
+  <figure className="ql-figure ql-path"><a href={fullSizeImage("/quillo/landing-how-it-works.webp")} target="_blank" rel="noopener noreferrer" aria-label="View the full-size How it works landing-page section"><Screen image="landing-how-it-works" alt="Quillo landing-page How it works section: Three things, one loop, followed by three alternating rows of explanatory copy and framed visuals" width={1980} height={3636} /></a><figcaption>The landing page’s “How it works” section alternates copy and framed visuals to explain the three-part loop. Select the image to view it full size.</figcaption></figure>
 </section>; }
 
 function LandingPageProof() {
@@ -133,7 +134,7 @@ function LandingPageProof() {
       else return;
       event.preventDefault(); select(next, "keyboard"); refs.current[next]?.focus();
     }}><span>0{i + 1}</span>{shot.label}</button>)}</div>
-    {proof.map((shot, i) => <div key={shot.label} className="ql-proof-panel" role="tabpanel" id={`ql-panel-${i}`} aria-labelledby={`ql-tab-${i}`} tabIndex={0} hidden={active !== i}><div className="ql-proof-screen"><Screen {...shot} /></div><div className="ql-proof-caption"><h3>{shot.title}</h3><div><p>{shot.body}</p><a className="ql-image-link" href={`/quillo/${shot.image}.webp`} target="_blank" rel="noopener noreferrer">View full-size image <Arrow /></a></div></div></div>)}
+    {proof.map((shot, i) => <div key={shot.label} className="ql-proof-panel" role="tabpanel" id={`ql-panel-${i}`} aria-labelledby={`ql-tab-${i}`} tabIndex={0} hidden={active !== i}><div className="ql-proof-screen"><Screen {...shot} /></div><div className="ql-proof-caption"><h3>{shot.title}</h3><div><p>{shot.body}</p><a className="ql-image-link" href={fullSizeImage(`/quillo/${shot.image}.webp`)} target="_blank" rel="noopener noreferrer">View full-size image <Arrow /></a></div></div></div>)}
     <p className="ql-note">Sections from the supplied Quillo landing-page design.</p>
   </div></section>;
 }
@@ -145,7 +146,7 @@ function VisualDirection() { return <section className="ql-section ag-wrap" id="
 </section>; }
 
 function Objections() { return <section className="ql-section ql-bordered ag-wrap" id="objections">
-  <Label number="10">Objection handling</Label><Title>We addressed the question<br /> <em>everyone would ask.</em></Title><div className="ql-split"><div className="ql-prose"><h3 className="ql-question">“Is this just ChatGPT with a wrapper?”</h3><p>The answer acknowledges the frontier model, then explains the product around it: a planner, an adaptive tutor, a citation system, and a persistent learning path.</p><p>This respects what informed visitors already know about AI products—and gives them a concrete reason to believe the difference.</p></div><figure className="ql-figure ql-faq"><a href="/quillo/landing-faq.webp" target="_blank" rel="noopener noreferrer" aria-label="View the full-size FAQ landing-page section"><Screen image="landing-faq" alt="Quillo landing-page FAQ layout with the first answer expanded and the remaining questions below" width={1980} height={2027} /></a><figcaption>The landing page’s FAQ, with the first answer expanded. Select the image to view it full size.</figcaption></figure></div><Reveal className="ql-pullquote"><blockquote>The model is the engine.<br /><em>It isn’t the product.</em></blockquote></Reveal>
+  <Label number="10">Objection handling</Label><Title>We addressed the question<br /> <em>everyone would ask.</em></Title><div className="ql-split"><div className="ql-prose"><h3 className="ql-question">“Is this just ChatGPT with a wrapper?”</h3><p>The answer acknowledges the frontier model, then explains the product around it: a planner, an adaptive tutor, a citation system, and a persistent learning path.</p><p>This respects what informed visitors already know about AI products—and gives them a concrete reason to believe the difference.</p></div><figure className="ql-figure ql-faq"><a href={fullSizeImage("/quillo/landing-faq.webp")} target="_blank" rel="noopener noreferrer" aria-label="View the full-size FAQ landing-page section"><Screen image="landing-faq" alt="Quillo landing-page FAQ layout with the first answer expanded and the remaining questions below" width={1980} height={2027} /></a><figcaption>The landing page’s FAQ, with the first answer expanded. Select the image to view it full size.</figcaption></figure></div><Reveal className="ql-pullquote"><blockquote>The model is the engine.<br /><em>It isn’t the product.</em></blockquote></Reveal>
 </section>; }
 
 function Conversion() { return <section className="ql-dark" id="conversion"><div className="ql-section ag-wrap">
@@ -160,4 +161,4 @@ function Outcome() { return <section className="ql-section ag-wrap" id="outcome"
   <Reveal className="ql-takeaway"><span className="ql-eyebrow">THE FOUNDER TAKEAWAY</span><blockquote>When information is everywhere,<br /><em>direction becomes the value.</em></blockquote><p>Quillo’s page makes the path, the evidence, and the next step easy to understand.</p></Reveal>
 </section>; }
 
-export function QuilloStory() { return <article className="ql-story"><nav className="ql-chapters" aria-label="Case-study chapters"><a href="#snapshot">Overview</a><a href="#strategy">Strategy</a><a href="#experience">Experience</a><a href="#outcome">Outcome</a></nav><Snapshot /><Challenge /><Strategy /><Positioning /><Journey /><Opening /><LearningLoop /><LandingPageProof /><VisualDirection /><Objections /><Conversion /><Outcome /><section className="ql-outro ql-section" id="case-outro"><div className="ag-wrap"><p className="ag-label">(A powerful product deserves a clear story.)</p><Title>Let’s make the<br /> <em>value obvious.</em></Title><a className="ag-button" href={bookingUrl} target="_blank" rel="noopener noreferrer" data-analytics-location="quillo_outro">Book a call <Arrow /></a><p className="ql-note">30 minutes to talk through your product and page.</p></div></section></article>; }
+export function QuilloStory() { return <article className="ql-story"><nav className="ql-chapters" aria-label="Case-study chapters"><a href="#snapshot">Overview</a><a href="#strategy">Strategy</a><a href="#experience">Experience</a><a href="#outcome">Outcome</a></nav><Snapshot /><Challenge /><Strategy /><Positioning /><Journey /><Opening /><LearningLoop /><LandingPageProof /><VisualDirection /><Objections /><Conversion /><Outcome /><section className="ql-outro ql-section" id="case-outro"><div className="ag-wrap"><p className="ag-label">(Your next product starts here.)</p><Title>Your next idea.<br /> <em>Let’s build it.</em></Title><a className="ag-button" href={bookingUrl} target="_blank" rel="noopener noreferrer" data-analytics-location="quillo_outro">Book a call <Arrow /></a><p className="ql-note">30 minutes to explore your product, priorities, and next steps.</p></div></section></article>; }

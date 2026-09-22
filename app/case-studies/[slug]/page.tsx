@@ -29,27 +29,27 @@ export async function generateMetadata({ params }: CaseStudyPageProps): Promise<
     return {};
   }
 
-  const title = `${project.name} Case Study | Shipped by Hippo`;
+  const title = `${project.name} Case Study | Quillo Qatar`;
   const description = project.caseStudy.founderPain;
   const url = `/case-studies/${project.slug}`;
 
   return {
     title,
     description,
-    alternates: { canonical: url },
+    ...(siteUrl ? { metadataBase: new URL(siteUrl), alternates: { canonical: url } } : {}),
     openGraph: {
       title,
       description,
-      url: `${siteUrl}${url}`,
-      siteName: "Shipped by Hippo",
+      ...(siteUrl ? { url: `${siteUrl}${url}` } : {}),
+      siteName: "Quillo Qatar",
       type: "article",
-      images: [{ url: "/og.png", width: 2400, height: 1260, type: "image/png", alt: "Shipped by Hippo — Great products deserve to be obvious." }],
+      ...(siteUrl ? { images: [{ url: "/og.png", width: 1200, height: 630, type: "image/png", alt: "Quillo Qatar — Your digital product, from idea to launch." }] } : {}),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [{ url: "/og.png", alt: "Shipped by Hippo — Great products deserve to be obvious." }],
+      ...(siteUrl ? { images: [{ url: "/og.png", alt: "Quillo Qatar — Your digital product, from idea to launch." }] } : {}),
     },
   };
 }

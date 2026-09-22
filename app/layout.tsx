@@ -3,69 +3,31 @@ import fonts from "@/lib/generated/fonts.json";
 import type { ReactNode } from "react";
 import "./globals.css";
 import "./generated-media.css";
+import "./quillo.css";
+import "./motion.css";
 import { SiteAnalytics } from "./components/site-analytics";
-import { siteUrl } from "@/lib/site";
+import { siteUrl, siteName, siteDescription, isPublicSite } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-  title: "Shipped by Hippo | Landing pages built to make your product obvious",
-  description:
-    "Shipped by Hippo builds strategy-led SaaS landing pages and website refreshes with positioning, copy, design, and launch-ready build in one focused sprint.",
-  alternates: { canonical: "/" },
+  ...(siteUrl ? { metadataBase: new URL(siteUrl), alternates: { canonical: "/" } } : {}),
+  title: "Quillo Qatar | Your digital product, from idea to launch",
+  description: siteDescription,
   openGraph: {
-    title: "Shipped by Hippo",
-    description: "Landing pages built to make your product the obvious choice.",
-    url: siteUrl,
-    siteName: "Shipped by Hippo",
-    type: "website",
-    images: [{ url: "/og.png", width: 2400, height: 1260, type: "image/png", alt: "Shipped by Hippo — Great products deserve to be obvious." }],
+    title: siteName, description: siteDescription, siteName, type: "website", locale: "en_QA",
+    ...(siteUrl ? { url: siteUrl, images: [{ url: "/og.png", width: 1200, height: 630, alt: "Quillo Qatar — Your digital product, from idea to launch." }] } : {}),
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Shipped by Hippo",
-    description: "Landing pages built to make your product the obvious choice.",
-    images: [{ url: "/og.png", alt: "Shipped by Hippo — Great products deserve to be obvious." }],
-  },
-  icons: {
-    icon: [
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
-    ],
-    shortcut: "/favicon.ico",
-  },
-  robots: { index: true, follow: true },
+  twitter: { card: "summary_large_image", title: siteName, description: siteDescription, ...(siteUrl ? { images: ["/og.png"] } : {}) },
+  icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }, { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" }], shortcut: "/favicon.ico" },
+  robots: { index: isPublicSite, follow: isPublicSite },
 };
-
-const schema = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "ProfessionalService",
-      name: "Shipped by Hippo",
-      url: siteUrl,
-      description: "Strategy-led landing page and website refresh sprints for SaaS and AI companies.",
-      areaServed: "Worldwide",
-    },
-  ],
-};
-
+const schema = { "@context": "https://schema.org", "@type": "ProfessionalService", name: siteName, description: siteDescription, ...(siteUrl ? { url: siteUrl } : {}), areaServed: { "@type": "Country", name: "Qatar" } };
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
-  return (
-    <html lang="en">
-      <head>
-        <link rel="preload" href={fonts["cal-sans"]} as="font" type="font/woff2" crossOrigin="anonymous" />
-        <link rel="preload" href={fonts["inter-regular"]} as="font" type="font/woff2" crossOrigin="anonymous" />
-      </head>
-      <body>
-        <noscript><style>{".ag-deferred-image{display:none!important}"}</style></noscript>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-        {children}
-        <SiteAnalytics />
-      </body>
-    </html>
-  );
+  return <html lang="en"><head>
+    <link rel="preload" href={fonts["cal-sans"]} as="font" type="font/woff2" crossOrigin="anonymous" />
+    <link rel="preload" href={fonts["inter-regular"]} as="font" type="font/woff2" crossOrigin="anonymous" />
+  </head><body>
+    <noscript><style>{".ag-deferred-image{display:none!important}"}</style></noscript>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />
+    {children}<SiteAnalytics />
+  </body></html>;
 }

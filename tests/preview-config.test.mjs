@@ -1,0 +1,34 @@
+import { readFileSync } from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import ts from 'typescript';
+function load(file, env = {}, dependencies = {}) {
+  const code = ts.transpileModule(readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 } }).outputText;
+  const exports = {};
+  vm.runInNewContext(code, { exports, process: { env }, URL, Intl, require: name => { if (name in dependencies) return dependencies[name]; throw new Error(name); } });
+  return exports;
+}
+const preview = load('lib/site.ts');
+assert.equal(preview.siteUrl, undefined);
+assert.equal(preview.isPublicSite, false);
+assert.equal(load('lib/site.ts', { NEXT_PUBLIC_SITE_URL: 'https://quillo.example' }).isPublicSite, false);
+const liveEnv = { NEXT_PUBLIC_SITE_URL: 'https://quillo.example', NEXT_PUBLIC_LAUNCH_READY: 'true' };
+const live = load('lib/site.ts', liveEnv);
+assert.equal(live.isPublicSite, true);
+for (const invalid of ['http://quillo.example', 'https://quillo.example/path', 'https://user:pass@quillo.example', 'not-a-url']) assert.throws(() => load('lib/site.ts', { NEXT_PUBLIC_SITE_URL: invalid }));
+const previewRobots = load('app/robots.ts', {}, { '@/lib/site': preview }).default();
+assert.equal(previewRobots.rules.disallow, '/');
+assert.equal(previewRobots.sitemap, undefined);
+assert.equal(load('app/sitemap.ts', {}, { '@/lib/site': preview, '@/data/projects': { projects: [{ slug: 'quillo' }] } }).default().length, 0);
+assert.equal(load('app/sitemap.ts', {}, { '@/lib/site': live, '@/data/projects': { projects: [{ slug: 'quillo' }] } }).default()[1].url, 'https://quillo.example/case-studies/quillo');
+assert.equal(load('lib/analytics-config.ts').analyticsEnabled('quillo.example'), false);
+const trackingEnv = { ...liveEnv, NEXT_PUBLIC_ANALYTICS_ENABLED: 'true', NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN: 'test-only' };
+const analytics = load('lib/analytics-config.ts', trackingEnv);
+assert.equal(analytics.analyticsEnabled('quillo.example'), true);
+for (const host of ['localhost', '127.0.0.1', 'demo.localhost', 'staging.example', 'www.byhippo.design']) assert.equal(analytics.analyticsEnabled(host), false);
+assert.equal(load('lib/analytics-config.ts', { ...trackingEnv, NEXT_PUBLIC_LAUNCH_READY: 'false' }).analyticsEnabled('quillo.example'), false);
+assert.equal(load('lib/analytics-config.ts', { ...trackingEnv, NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN: '' }).analyticsEnabled('quillo.example'), false);
+const { services, formatPrice } = load('data/services.ts');
+assert.deepEqual(Array.from(services, service => [service.amount, service.currency, service.interval]), [[5000, 'QAR', 'project'], [25000, 'QAR', 'project'], [2500, 'QAR', 'month']]);
+assert.equal(formatPrice(25000), '25,000');
+console.log('Passed: preview isolation, explicit launch switch, domain validation, robots/sitemap, analytics opt-in, and numeric QAR pricing.');

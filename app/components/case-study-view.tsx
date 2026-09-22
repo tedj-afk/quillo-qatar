@@ -118,7 +118,7 @@ function Takeaway({ project }: { project: Project }) {
         <ResponsiveImage className="ag-cover" src={visuals[project.slug]} alt="" loading="lazy" />
         <div className="ag-case-quote-copy">
           <p>{project.caseStudy.takeaway}</p>
-          <div className="ag-case-quote-bottom"><span>Shipped by Hippo<small>{project.name} / {project.category}</small></span><a className="ag-button ag-button-light" href={bookingUrl} target="_blank" rel="noopener noreferrer" data-analytics-location="case_study_takeaway">Book a call <ResponsiveImage className="ag-icon" src="/agero/arrow.svg" alt="" /></a></div>
+          <div className="ag-case-quote-bottom"><span>Quillo Qatar<small>{project.name} / {project.category}</small></span><a className="ag-button ag-button-light" href={bookingUrl} target="_blank" rel="noopener noreferrer" data-analytics-location="case_study_takeaway">Book a call <ResponsiveImage className="ag-icon" src="/agero/arrow.svg" alt="" /></a></div>
         </div>
       </Reveal>
     </div>

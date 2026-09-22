@@ -1,13 +1,9 @@
-export type FAQ = { question: string; answer: string };
-
-export const faqs: FAQ[] = [
-  { question: "How long does a project take?", answer: "Most projects go from strategy to live site in about two weeks. Larger scopes or unusual integrations may take longer." },
-  { question: "Two weeks sounds fast. Are you rushing the work?", answer: "No. We remove idle time, not thinking. Strategy, copy, design, and build move together." },
-  { question: "What do you need from us?", answer: "A focused kickoff, useful product context, brand files, access where relevant, and timely sprint feedback." },
-  { question: "Do we need to provide the copy?", answer: "No. Copy is included, from positioning through headlines, proof, CTAs, and page structure." },
-  { question: "What if we need more revisions?", answer: "Each project includes 1 brand-direction refinement round and 2 page revision rounds. If the scope changes, we discuss it before extra work starts." },
-  { question: "Can you work with our existing brand?", answer: "Yes. We sharpen the website's type, color, UI language, and consistency without forcing a full rebrand." },
-  { question: "What happens after launch?", answer: "We provide a smooth handover so you can manage your website independently, plus 7 days of post-launch support for small fixes, responsive issues, and launch adjustments. If you need ongoing help, we offer optional maintenance, SEO, and design or development updates." },
-  { question: "How much does it cost?", answer: "Landing Page Sprint is $3,000 fixed. Website Refresh is $5,000 for the standard scope." },
-  { question: "How do we get started?", answer: "Book a call and tell us about the product, launch, or site you have outgrown. We'll review fit and define what needs to ship." },
+export const faqs = [
+  { question: "What can you build with us?", answer: "Web applications, SaaS products, customer portals, internal tools, and iOS and Android apps. We define the right platform and first release around your users, business goals, and budget. You can bring us a new idea or an existing product that needs to evolve." },
+  { question: "Do we need a fully formed idea?", answer: "No. Bring the problem, the opportunity, or the workflow that is slowing your business down. Discovery turns that starting point into requirements, a prioritized scope, and a practical roadmap." },
+  { question: "How long does a product take?", answer: "We agree on a timeline after discovery, once the platforms, core features, integrations, and dependencies are understood. You get clear milestones and regular working previews. There is no blanket two-week promise for an entire product." },
+  { question: "What do the starting prices include?", answer: "The preview shows provisional starting prices in QAR for discovery, a scoped MVP, and monthly support. A scoped MVP covers an agreed core experience; it does not automatically include a website, iOS app, and Android app together. Platforms, features, integrations, and support scope determine your final quote. Third-party subscriptions and platform fees are identified separately in the proposal." },
+  { question: "Do you handle launch and app stores?", answer: "Yes. We support deployment, release testing, store assets and submission, and handover for the platforms in your scope. App-store reviews and approval dates are controlled by Apple and Google, so we cannot guarantee them." },
+  { question: "What happens after launch?", answer: "You receive the agreed source files, documentation, and access handover. We agree on ownership and third-party licenses in the proposal. Ongoing maintenance, monitoring, fixes, and new features are available through a separately scoped support engagement." },
+  { question: "Do you work with businesses in Qatar?", answer: "Yes. Quillo Qatar is focused on startups and established businesses serving Qatar. We plan communication around Qatar time and quote in QAR. This site is in English; Arabic product experiences and right-to-left interfaces can be included in your project scope." },
 ];
